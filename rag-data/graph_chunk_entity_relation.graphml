@@ -1,0 +1,855 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d9" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d8" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d7" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d6" for="edge" attr.name="description" attr.type="string" />
+  <key id="d5" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Schiffspropeller">
+      <data key="d0">Schiffspropeller</data>
+      <data key="d1">object</data>
+      <data key="d2">A three-bladed ship propeller, depicted in dark gray to black.</data>
+      <data key="d3">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Strömungslinien">
+      <data key="d0">Strömungslinien</data>
+      <data key="d1">object</data>
+      <data key="d2">Colored lines representing the flow of a fluid (likely water) around the propeller.&lt;SEP&gt;Mehrfarbige Linien, die den Verlauf einer Strömung in einem Zylinderkopf darstellen.&lt;SEP&gt;Mehrfarbige Linien, die um den Flügel und das Triebwerk herum verlaufen.</data>
+      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825&lt;SEP&gt;chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Strömungssimulation">
+      <data key="d0">Strömungssimulation</data>
+      <data key="d1">event</data>
+      <data key="d2">A computer simulation showing the flow of a fluid around a rotating ship propeller.&lt;SEP&gt;Strömungssimulation is a simulation of fluid flow, likely analyzed using ANSYS software.&lt;SEP&gt;A visualized flow simulation within the pipe system, showing different velocities or properties.&lt;SEP&gt;Strömungssimulation is a simulation of fluid dynamics, specifically computational fluid dynamics (CFD).</data>
+      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38&lt;SEP&gt;chunk-b439e21faabb43f494092d8078561451&lt;SEP&gt;chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Wirbelbildung">
+      <data key="d0">Wirbelbildung</data>
+      <data key="d1">event</data>
+      <data key="d2">The formation of vortices behind the propeller blades.</data>
+      <data key="d3">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Beschleunigung">
+      <data key="d0">Beschleunigung</data>
+      <data key="d1">event</data>
+      <data key="d2">The propeller accelerates the fluid (water) and directs it in a specific direction.</data>
+      <data key="d3">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Auto">
+      <data key="d0">Auto</data>
+      <data key="d1">object</data>
+      <data key="d2">The car is depicted as a 3D model or simulation with aerodynamic features.</data>
+      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Luftstrom">
+      <data key="d0">Luftstrom</data>
+      <data key="d1">phenomenon</data>
+      <data key="d2">The airflow is simulated around the car, represented by color-gradated lines.</data>
+      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Simulation">
+      <data key="d0">Simulation</data>
+      <data key="d1">event</data>
+      <data key="d2">The simulation is a computer-based representation of the airflow around a moving car.</data>
+      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Aerodynamik">
+      <data key="d0">Aerodynamik</data>
+      <data key="d1">category</data>
+      <data key="d2">Aerodynamics is the study of the interaction between air and solid objects, such as cars.&lt;SEP&gt;Die Studie der Luftströmung um Objekte, insbesondere in Bezug auf Druckverteilung und Wirbelbildung.</data>
+      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109&lt;SEP&gt;chunk-586e18895bc17337c1feccdf0f0aa42f</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Ansys">
+      <data key="d0">Ansys</data>
+      <data key="d1">organization</data>
+      <data key="d2">Ansys is a software company that provides engineering simulation solutions.&lt;SEP&gt;Ansys is a software company that provides numerical simulation solutions, used to create the image.</data>
+      <data key="d3">chunk-dc8b4fc637fb92a27eb6e24d11a4d1cf&lt;SEP&gt;chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Velocity Streamline1">
+      <data key="d0">Velocity Streamline1</data>
+      <data key="d1">category</data>
+      <data key="d2">Velocity Streamline1 refers to the visualization of fluid flow velocity in a streamlines representation.&lt;SEP&gt;Velocity Streamline1 refers to the visualized velocity streamlines in the image.</data>
+      <data key="d3">chunk-dc8b4fc637fb92a27eb6e24d11a4d1cf&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Düse">
+      <data key="d0">Düse</data>
+      <data key="d1">object</data>
+      <data key="d2">The Düse (nozzle) is the central object in the image, which tapers from a wider to a narrower cross-section and then widens again.</data>
+      <data key="d3">chunk-dc8b4fc637fb92a27eb6e24d11a4d1cf</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="ANSYS">
+      <data key="d0">ANSYS</data>
+      <data key="d1">organization</data>
+      <data key="d2">ANSYS is a company that provides simulation software used for various analyses, including fluid dynamics.&lt;SEP&gt;ANSYS is a software company used for simulation and analysis, specifically for the flow simulation in the image.&lt;SEP&gt;ANSYS is a software company that provides engineering simulation and analysis tools, including ANSYS Fluent for fluid dynamics and heat transfer analysis.&lt;SEP&gt;Eine Firma, die Software für Ingenieursimulationen entwickelt, erkennbar am Logo im Bild.&lt;SEP&gt;ANSYS is a software company whose product was used for the simulation.</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825&lt;SEP&gt;chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38&lt;SEP&gt;chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Kreisförmige Anordnung von Pfeilen">
+      <data key="d0">Kreisförmige Anordnung von Pfeilen</data>
+      <data key="d1">category</data>
+      <data key="d2">Kreisförmige Anordnung von Pfeilen represents a circular arrangement of arrows indicating fluid flow or movement.</data>
+      <data key="d3">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Zwei kleine Ellipsen">
+      <data key="d0">Zwei kleine Ellipsen</data>
+      <data key="d1">category</data>
+      <data key="d2">Zwei kleine Ellipsen are small ellipses that could represent inlets or outlets of the fluid flow.</data>
+      <data key="d3">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Koordinatensystem">
+      <data key="d0">Koordinatensystem</data>
+      <data key="d1">category</data>
+      <data key="d2">Koordinatensystem is a three-dimensional coordinate system used for spatial reference.</data>
+      <data key="d3">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Kühlkörper/Heizkörper">
+      <data key="d0">Kühlkörper/Heizkörper</data>
+      <data key="d1">object</data>
+      <data key="d2">A Kühlkörper/Heizkörper is a technical object used for heat transfer or temperature regulation, characterized by its elongated, ribbed structure.</data>
+      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Achsenkreuz">
+      <data key="d0">Achsenkreuz</data>
+      <data key="d1">object</data>
+      <data key="d2">An Achsenkreuz is a small coordinate system used to indicate spatial orientation in 3D space.</data>
+      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Farbcodierungsskala">
+      <data key="d0">Farbcodierungsskala</data>
+      <data key="d1">object</data>
+      <data key="d2">A Farbcodierungsskala is a color-coded scale used to represent temperature values, ranging from red (warm) to blue (cold).</data>
+      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Level1 Static Temperature">
+      <data key="d0">Level1 Static Temperature</data>
+      <data key="d1">category</data>
+      <data key="d2">Level1 Static Temperature refers to a static temperature distribution, likely related to the thermal analysis of the Kühlkörper/Heizkörper.</data>
+      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Temperaturwerte">
+      <data key="d0">Temperaturwerte</data>
+      <data key="d1">category</data>
+      <data key="d2">Temperaturwerte are temperature values measured in degrees Celsius, associated with specific colors on the Farbcodierungsskala.</data>
+      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rotor">
+      <data key="d0">Rotor</data>
+      <data key="d1">object</data>
+      <data key="d2">The rotor is a blue object with shovel-like structures, presumed to be rotating and influencing the flow in the channel.</data>
+      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Channel/Pipe">
+      <data key="d0">Channel/Pipe</data>
+      <data key="d1">object</data>
+      <data key="d2">The channel or pipe is a rectangular structure containing the rotating object and through which the fluid flows.</data>
+      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Flow Lines">
+      <data key="d0">Flow Lines</data>
+      <data key="d1">object</data>
+      <data key="d2">The flow lines are green lines representing the flow of fluid around the rotating object.</data>
+      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Color Palette">
+      <data key="d0">Color Palette</data>
+      <data key="d1">object</data>
+      <data key="d2">The color palette visualizes the speed of the flow, with different colors representing different velocities.</data>
+      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Coordinate System">
+      <data key="d0">Coordinate System</data>
+      <data key="d1">object</data>
+      <data key="d2">The coordinate system is a small grid in the lower right corner, likely used for measurement and reference.</data>
+      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Velocity">
+      <data key="d0">Velocity</data>
+      <data key="d1">category</data>
+      <data key="d2">Velocity refers to the speed of the fluid flow, measured in meters per second (m/s).</data>
+      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Flow Simulation">
+      <data key="d0">Flow Simulation</data>
+      <data key="d1">event</data>
+      <data key="d2">A visualized flow simulation within the pipe system, showing different velocities or properties.&lt;SEP&gt;The flow simulation is a computer-aided analysis of fluid dynamics, showing how the rotating object affects the flow.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451&lt;SEP&gt;chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Computational Fluid Dynamics (CFD)">
+      <data key="d0">Computational Fluid Dynamics (CFD)</data>
+      <data key="d1">category</data>
+      <data key="d2">Computational Fluid Dynamics (CFD) is a category of numerical methods used to solve fluid dynamics problems.&lt;SEP&gt;Eine Methode zur Simulation von Strömungen um Objekte.</data>
+      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f&lt;SEP&gt;chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Centrifugal Pump">
+      <data key="d0">Centrifugal Pump</data>
+      <data key="d1">organization</data>
+      <data key="d2">A centrifugal pump is a type of pump that uses a rotating impeller to increase the pressure and flow rate of a fluid.</data>
+      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Radial Fan">
+      <data key="d0">Radial Fan</data>
+      <data key="d1">organization</data>
+      <data key="d2">A radial fan is a type of fan that uses a rotating impeller to increase the pressure and flow rate of a fluid.</data>
+      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Pressure Distribution">
+      <data key="d0">Pressure Distribution</data>
+      <data key="d1">category</data>
+      <data key="d2">Pressure distribution refers to the variation of pressure across a surface or within a fluid.</data>
+      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Velocity Distribution">
+      <data key="d0">Velocity Distribution</data>
+      <data key="d1">category</data>
+      <data key="d2">Velocity distribution refers to the variation of velocity across a surface or within a fluid.</data>
+      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="STUDENT">
+      <data key="d0">STUDENT</data>
+      <data key="d1">category</data>
+      <data key="d2">STUDENT refers to a version of the Ansys software likely used for educational purposes.</data>
+      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Temperature Distribution">
+      <data key="d0">Temperature Distribution</data>
+      <data key="d1">category</data>
+      <data key="d2">Temperature Distribution refers to the display of temperature values across the cylindrical body in the image.</data>
+      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Cylindrical Body">
+      <data key="d0">Cylindrical Body</data>
+      <data key="d1">object</data>
+      <data key="d2">Cylindrical Body is a long, cylindrical object (likely a pipe or rod) shown in the image with a temperature distribution.</data>
+      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Color Scale">
+      <data key="d0">Color Scale</data>
+      <data key="d1">object</data>
+      <data key="d2">Color Scale is a scale on the left side of the image that displays temperature values in Kelvin (K).</data>
+      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="YouTube">
+      <data key="d0">YouTube</data>
+      <data key="d1">organization</data>
+      <data key="d2">YouTube is a video-sharing platform where tutorials and educational content, such as the ANSYS Fluent tutorial, are shared.</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="ANSYS FLUENT">
+      <data key="d0">ANSYS FLUENT</data>
+      <data key="d1">software</data>
+      <data key="d2">ANSYS Fluent is a computational fluid dynamics (CFD) software used for fluid flow, heat transfer, and mass transport simulations.</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Spiralförmige (helikale) Rohrschlange">
+      <data key="d0">Spiralförmige (helikale) Rohrschlange</data>
+      <data key="d1">object</data>
+      <data key="d2">The spiral-shaped pipe coil is a geometric configuration used for heat transfer analysis in fluid dynamics.</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Pressure Contour">
+      <data key="d0">Pressure Contour</data>
+      <data key="d1">category</data>
+      <data key="d2">Pressure Contour refers to a type of visualization used to represent pressure values across a surface or in a fluid.</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Fluid Heat Transfer Analysis">
+      <data key="d0">Fluid Heat Transfer Analysis</data>
+      <data key="d1">category</data>
+      <data key="d2">Fluid Heat Transfer Analysis is a study area within engineering that deals with the transfer of heat in fluids, crucial for designing and optimizing systems.</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="ANSYS2020 R1">
+      <data key="d0">ANSYS2020 R1</data>
+      <data key="d1">software version</data>
+      <data key="d2">ANSYS2020 R1 refers to a specific version of the ANSYS software suite, likely used for the simulation.</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="ANSYS FLUENT TUTORIAL">
+      <data key="d0">ANSYS FLUENT TUTORIAL</data>
+      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d2">The ANSYS Fluent tutorial is likely a video or series of videos hosted on YouTube.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Zylinderkopf">
+      <data key="d0">Zylinderkopf</data>
+      <data key="d1">object</data>
+      <data key="d2">Ein Schnittmodell eines Zylinderkopfes eines Verbrennungsmotors, das Ventile, Brennraum und Kanäle zeigt.</data>
+      <data key="d3">chunk-760959160ff9d1e402b507ae86fc5825</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Farbskala">
+      <data key="d0">Farbskala</data>
+      <data key="d1">object</data>
+      <data key="d2">A vertical color scale is located on the left side of the image, representing pressure values.&lt;SEP&gt;Eine farbliche Darstellung einer physikalischen Größe, vermutlich Geschwindigkeit oder Druck, mit Farben von Blau (niedrig) bis Rot (hoch).</data>
+      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Verwirbelung">
+      <data key="d0">Verwirbelung</data>
+      <data key="d1">event</data>
+      <data key="d2">Eine Verwirbelung im Brennraum, die für eine gute Vermischung von Kraftstoff und Luft wichtig ist.</data>
+      <data key="d3">chunk-760959160ff9d1e402b507ae86fc5825</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rohrleitungssystem">
+      <data key="d0">Rohrleitungssystem</data>
+      <data key="d1">object</data>
+      <data key="d2">A complex 3D model of a pipe system with a horizontal main pipe and a vertical branch.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Farblegende">
+      <data key="d0">Farblegende</data>
+      <data key="d1">object</data>
+      <data key="d2">A vertical color legend ranging from blue (low) to red (high), associated with velocity magnitude.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Dialogfenster">
+      <data key="d0">Dialogfenster</data>
+      <data key="d1">object</data>
+      <data key="d2">A dialog box from a flow simulation software, containing input fields and options.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Datenvisualisierung">
+      <data key="d0">Datenvisualisierung</data>
+      <data key="d1">event</data>
+      <data key="d2">The use of color legends and pipe system coloring to visually represent numerical data (velocity values).</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Software-Interaktion">
+      <data key="d0">Software-Interaktion</data>
+      <data key="d1">event</data>
+      <data key="d2">The interaction with software to configure or analyze simulation results.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Pipe System">
+      <data key="d0">Pipe System</data>
+      <data key="d1">object</data>
+      <data key="d2">A complex 3D model of a pipe system with a horizontal main pipe and a vertical branch.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Color Legend">
+      <data key="d0">Color Legend</data>
+      <data key="d1">object</data>
+      <data key="d2">A vertical color legend ranging from blue (low) to red (high), associated with velocity magnitude.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Dialog Box">
+      <data key="d0">Dialog Box</data>
+      <data key="d1">object</data>
+      <data key="d2">A dialog box from a flow simulation software, containing input fields and options.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Data Visualization">
+      <data key="d0">Data Visualization</data>
+      <data key="d1">event</data>
+      <data key="d2">The use of color legends and pipe system coloring to visually represent numerical data (velocity values).</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Software Interaction">
+      <data key="d0">Software Interaction</data>
+      <data key="d1">event</data>
+      <data key="d2">The interaction with software to configure or analyze simulation results.</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="velocity magnitude">
+      <data key="d0">velocity magnitude</data>
+      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d2">The color legend represents the velocity magnitude of the flow.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Velocity Magnitude">
+      <data key="d0">Velocity Magnitude</data>
+      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d2">The color legend represents the velocity magnitude of the flow.&lt;SEP&gt;Velocity Magnitude is a category for measuring the speed of the fluid flow.</data>
+      <data key="d1">category</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rohr">
+      <data key="d0">Rohr</data>
+      <data key="d1">object</data>
+      <data key="d2">not in entity types</data>
+      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rotorschaufeln">
+      <data key="d0">Rotorschaufeln</data>
+      <data key="d1">object</data>
+      <data key="d2">not in entity types</data>
+      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
+    </node>
+    <node id="Total Pressure">
+      <data key="d0">Total Pressure</data>
+      <data key="d1">category</data>
+      <data key="d2">Total Pressure is a category for measuring the pressure of the fluid flow.</data>
+      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
+    </node>
+    <node id="Flugzeugflügel">
+      <data key="d0">Flugzeugflügel</data>
+      <data key="d1">object</data>
+      <data key="d2">Ein Teil eines Flugzeugflügels ist deutlich zu sehen, einschließlich eines Teils der Tragfläche.</data>
+      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Triebwerk">
+      <data key="d0">Triebwerk</data>
+      <data key="d1">object</data>
+      <data key="d2">Ein Triebwerk (vermutlich ein Turbofan) ist unter dem Flügel montiert.</data>
+      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Venturirohr/Düse">
+      <data key="d0">Venturirohr/Düse</data>
+      <data key="d1">object</data>
+      <data key="d2">The central object is a pipe with a narrowing in the middle (Venturi shape), consisting of a wide initial section, a narrowing in the middle, and an expanding end section.</data>
+      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Abstandsanzeige">
+      <data key="d0">Abstandsanzeige</data>
+      <data key="d1">object</data>
+      <data key="d2">A horizontal bar is located at the bottom of the image, labeled with 0,000 m, 1,000 m, and 2,000 m, indicating a length measurement or scale.</data>
+      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Pressure1">
+      <data key="d0">Pressure1</data>
+      <data key="d1">label</data>
+      <data key="d2">A label confirming that the color representation visualizes pressure.</data>
+      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Venturi Effect">
+      <data key="d0">Venturi Effect</data>
+      <data key="d1">phenomenon</data>
+      <data key="d2">The Venturi effect is a phenomenon where the pressure of a fluid decreases as it flows through a constricted section of a pipe.</data>
+      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </node>
+    <edge source="Schiffspropeller" target="Strömungslinien">
+      <data key="d5">16.0</data>
+      <data key="d6">The propeller affects the flow lines, causing them to change direction and form vortices.</data>
+      <data key="d7">physical interaction, fluid dynamics</data>
+      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Schiffspropeller" target="Beschleunigung">
+      <data key="d5">18.0</data>
+      <data key="d6">The propeller accelerates the fluid, directing it in a specific direction.</data>
+      <data key="d7">physical interaction, propulsion</data>
+      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Schiffspropeller" target="Strömungssimulation">
+      <data key="d5">12.0</data>
+      <data key="d6">The simulation involves a ship propeller and its effect on fluid flow.</data>
+      <data key="d7">simulation, object interaction</data>
+      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungslinien" target="Wirbelbildung">
+      <data key="d5">14.0</data>
+      <data key="d6">The flow lines indicate the formation of vortices behind the propeller blades.</data>
+      <data key="d7">causal relationship, fluid dynamics</data>
+      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungslinien" target="Zylinderkopf">
+      <data key="d5">16.0</data>
+      <data key="d6">Der Zylinderkopf ist das Objekt, in dem die Strömungslinien visualisiert werden.</data>
+      <data key="d7">engineering, visualization</data>
+      <data key="d8">chunk-760959160ff9d1e402b507ae86fc5825</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungslinien" target="Farbskala">
+      <data key="d5">18.0</data>
+      <data key="d6">Die Strömungslinien und die Farbskala stellen gemeinsam die physikalischen Eigenschaften der Strömung dar.</data>
+      <data key="d7">physical properties, visualization</data>
+      <data key="d8">chunk-760959160ff9d1e402b507ae86fc5825</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungslinien" target="Flugzeugflügel">
+      <data key="d5">18.0</data>
+      <data key="d6">Die Strömungslinien visualisieren die Luftströmung um den Flugzeugflügel.</data>
+      <data key="d7">simulation, visualization</data>
+      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungslinien" target="Computational Fluid Dynamics (CFD)">
+      <data key="d5">20.0</data>
+      <data key="d6">CFD wird verwendet, um die Strömungslinien um Objekte zu simulieren.</data>
+      <data key="d7">methodology, application</data>
+      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="ANSYS">
+      <data key="d5">56.0</data>
+      <data key="d6">ANSYS software is used for the Strömungssimulation.&lt;SEP&gt;Die Software von ANSYS wird verwendet, um die Strömungssimulation durchzuführen.&lt;SEP&gt;ANSYS software was used to perform the Strömungssimulation.</data>
+      <data key="d7">software usage, simulation&lt;SEP&gt;software, simulation</data>
+      <data key="d8">chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Velocity Streamline1">
+      <data key="d5">16.0</data>
+      <data key="d6">Velocity Streamline1 is a visualization of the Strömungssimulation results.</data>
+      <data key="d7">visualization, simulation result</data>
+      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Kreisförmige Anordnung von Pfeilen">
+      <data key="d5">14.0</data>
+      <data key="d6">Kreisförmige Anordnung von Pfeilen represents the fluid flow in the Strömungssimulation.</data>
+      <data key="d7">visual element, simulation result</data>
+      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Koordinatensystem">
+      <data key="d5">10.0</data>
+      <data key="d6">Koordinatensystem provides a spatial reference for the Strömungssimulation.</data>
+      <data key="d7">spatial reference, simulation setup</data>
+      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Verwirbelung">
+      <data key="d5">16.0</data>
+      <data key="d6">Die Strömungssimulation zeigt deutliche Verwirbelungen im Brennraum.</data>
+      <data key="d7">simulation, fluid dynamics</data>
+      <data key="d8">chunk-760959160ff9d1e402b507ae86fc5825</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Dialogfenster">
+      <data key="d5">9.0</data>
+      <data key="d6">The dialog box is used to configure and analyze the flow simulation.</data>
+      <data key="d7">software interaction, simulation control</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Rohrleitungssystem">
+      <data key="d5">7.0</data>
+      <data key="d6">The pipe system is used to visualize the flow simulation.</data>
+      <data key="d7">simulation model, visualization</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Velocity Magnitude">
+      <data key="d5">16.0</data>
+      <data key="d6">Velocity Magnitude is a measured property during the Strömungssimulation.</data>
+      <data key="d7">measurement, simulation data</data>
+      <data key="d8">chunk-d19accac0df57fe02efe95554fad3321</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Total Pressure">
+      <data key="d5">16.0</data>
+      <data key="d6">Total Pressure is another measured property during the Strömungssimulation.</data>
+      <data key="d7">measurement, simulation data</data>
+      <data key="d8">chunk-d19accac0df57fe02efe95554fad3321</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Auto" target="Luftstrom">
+      <data key="d5">16.0</data>
+      <data key="d6">The car is the object around which the airflow is simulated.</data>
+      <data key="d7">aerodynamic interaction, object-phenomenon</data>
+      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Auto" target="Simulation">
+      <data key="d5">14.0</data>
+      <data key="d6">The simulation involves the car as the central object.</data>
+      <data key="d7">simulation subject, object representation</data>
+      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Luftstrom" target="Simulation">
+      <data key="d5">16.0</data>
+      <data key="d6">The airflow is a key aspect of the simulation.</data>
+      <data key="d7">simulation component, phenomenon representation</data>
+      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Simulation" target="Aerodynamik">
+      <data key="d5">18.0</data>
+      <data key="d6">The simulation demonstrates principles of aerodynamics.</data>
+      <data key="d7">scientific application, field demonstration</data>
+      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Aerodynamik" target="Flugzeugflügel">
+      <data key="d5">16.0</data>
+      <data key="d6">Die Aerodynamik des Flugzeugflügels wird durch die Strömungslinien dargestellt.</data>
+      <data key="d7">physical phenomenon, analysis</data>
+      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Ansys" target="STUDENT">
+      <data key="d5">16.0</data>
+      <data key="d6">Ansys offers a STUDENT version of its software, likely for educational use.</data>
+      <data key="d7">software version, education</data>
+      <data key="d8">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="ANSYS" target="Flow Simulation">
+      <data key="d5">9.0</data>
+      <data key="d6">ANSYS software is used to create the flow simulation.</data>
+      <data key="d7">software usage, simulation tool</data>
+      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="ANSYS" target="ANSYS FLUENT">
+      <data key="d5">9.0</data>
+      <data key="d6">ANSYS Fluent is a product offered by ANSYS for fluid dynamics simulations.</data>
+      <data key="d7">software product, company</data>
+      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Kreisförmige Anordnung von Pfeilen" target="Zwei kleine Ellipsen">
+      <data key="d5">12.0</data>
+      <data key="d6">Zwei kleine Ellipsen are related to the Kreisförmige Anordnung von Pfeilen as potential inlets or outlets.</data>
+      <data key="d7">geometric relation, flow representation</data>
+      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Kühlkörper/Heizkörper" target="Farbcodierungsskala">
+      <data key="d5">8.0</data>
+      <data key="d6">The Kühlkörper/Heizkörper's temperature distribution is represented by the Farbcodierungsskala, showing a range of temperatures.")</data>
+      <data key="d7">thermal analysis, visualization</data>
+      <data key="d8">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Kühlkörper/Heizkörper" target="Achsenkreuz">
+      <data key="d5">7.0</data>
+      <data key="d6">The Achsenkreuz provides spatial orientation for the Kühlkörper/Heizkörper in 3D space.")</data>
+      <data key="d7">spatial reference, technical drawing</data>
+      <data key="d8">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Level1 Static Temperature" target="Temperaturwerte">
+      <data key="d5">6.0</data>
+      <data key="d6">The Level1 Static Temperature category is associated with specific Temperaturwerte, indicating a static thermal condition.")</data>
+      <data key="d7">thermal measurement, data representation</data>
+      <data key="d8">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rotor" target="Flow Lines">
+      <data key="d5">8.0</data>
+      <data key="d6">The rotor influences the flow lines, causing them to curve around it.</data>
+      <data key="d7">fluid dynamics, object interaction</data>
+      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rotor" target="Flow Simulation">
+      <data key="d5">7.0</data>
+      <data key="d6">The flow simulation involves the rotor, which affects the fluid flow.</data>
+      <data key="d7">simulation component, object influence</data>
+      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Color Palette" target="Velocity">
+      <data key="d5">6.0</data>
+      <data key="d6">The color palette represents the velocity of the fluid flow.</data>
+      <data key="d7">visualization tool, velocity representation</data>
+      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Flow Simulation" target="Dialog Box">
+      <data key="d5">9.0</data>
+      <data key="d6">The dialog box is used to configure and analyze the flow simulation.</data>
+      <data key="d7">software interaction, simulation control</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Flow Simulation" target="Pipe System">
+      <data key="d5">7.0</data>
+      <data key="d6">The pipe system is used to visualize the flow simulation.</data>
+      <data key="d7">simulation model, visualization</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computational Fluid Dynamics (CFD)" target="Centrifugal Pump">
+      <data key="d5">14.0</data>
+      <data key="d6">CFD is used to simulate and analyze the behavior of fluids in centrifugal pumps.</data>
+      <data key="d7">simulation, fluid handling</data>
+      <data key="d8">chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Centrifugal Pump" target="Radial Fan">
+      <data key="d5">16.0</data>
+      <data key="d6">Both are types of turbomachinery used for fluid handling, with similar operational principles.</data>
+      <data key="d7">technical similarity, fluid handling</data>
+      <data key="d8">chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Pressure Distribution" target="Velocity Distribution">
+      <data key="d5">18.0</data>
+      <data key="d6">Both are critical aspects of fluid dynamics analysis, often studied together to understand fluid behavior.</data>
+      <data key="d7">fluid dynamics, analysis</data>
+      <data key="d8">chunk-1e63bd0c434801fbfeecade6fb222237</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Temperature Distribution" target="Cylindrical Body">
+      <data key="d5">18.0</data>
+      <data key="d6">The Cylindrical Body shows a Temperature Distribution, indicating varying temperatures along its length.</data>
+      <data key="d7">object property, thermal analysis</data>
+      <data key="d8">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Temperature Distribution" target="Color Scale">
+      <data key="d5">16.0</data>
+      <data key="d6">The Color Scale is used to interpret the Temperature Distribution across the Cylindrical Body.</data>
+      <data key="d7">measurement tool, thermal analysis</data>
+      <data key="d8">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="YouTube" target="ANSYS FLUENT TUTORIAL">
+      <data key="d5">8.0</data>
+      <data key="d6">The ANSYS Fluent tutorial is likely a video or series of videos hosted on YouTube.</data>
+      <data key="d7">tutorial, educational content</data>
+      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="ANSYS FLUENT" target="ANSYS2020 R1">
+      <data key="d5">5.0</data>
+      <data key="d6">ANSYS2020 R1 is a version of the software that can be used for ANSYS Fluent simulations.</data>
+      <data key="d7">software version, simulation tool</data>
+      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Spiralförmige (helikale) Rohrschlange" target="Fluid Heat Transfer Analysis">
+      <data key="d5">7.0</data>
+      <data key="d6">The spiral-shaped pipe coil is an object of study in fluid heat transfer analysis.</data>
+      <data key="d7">simulation object, analysis type</data>
+      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Pressure Contour" target="Fluid Heat Transfer Analysis">
+      <data key="d5">6.0</data>
+      <data key="d6">Pressure contours are used to visualize and analyze fluid heat transfer phenomena.</data>
+      <data key="d7">visualization tool, analysis technique</data>
+      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Farbskala" target="Venturirohr/Düse">
+      <data key="d5">16.0</data>
+      <data key="d6">The color scale is used to quantify the pressure distribution within the Venturi pipe.</data>
+      <data key="d7">pressure visualization, measurement</data>
+      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Farbskala" target="Pressure1">
+      <data key="d5">18.0</data>
+      <data key="d6">The color scale is labeled with pressure values (in Pa) and is associated with the 'Pressure1' label.</data>
+      <data key="d7">pressure measurement, labeling</data>
+      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rohrleitungssystem" target="Farblegende">
+      <data key="d5">8.0</data>
+      <data key="d6">The pipe system is colored according to the velocity magnitude legend.</data>
+      <data key="d7">visualization, data representation</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Farblegende" target="velocity magnitude">
+      <data key="d5">10.0</data>
+      <data key="d6">The color legend represents the velocity magnitude of the flow.</data>
+      <data key="d7">data visualization, measurement</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Pipe System" target="Color Legend">
+      <data key="d5">8.0</data>
+      <data key="d6">The pipe system is colored according to the velocity magnitude legend.</data>
+      <data key="d7">visualization, data representation</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Color Legend" target="Velocity Magnitude">
+      <data key="d5">10.0</data>
+      <data key="d6">The color legend represents the velocity magnitude of the flow.</data>
+      <data key="d7">data visualization, measurement</data>
+      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Flugzeugflügel" target="Triebwerk">
+      <data key="d5">16.0</data>
+      <data key="d6">Der Triebwerk ist unter dem Flugzeugflügel montiert.</data>
+      <data key="d7">physical relationship, assembly</data>
+      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Venturirohr/Düse" target="Abstandsanzeige">
+      <data key="d5">14.0</data>
+      <data key="d6">The length scale is related to the dimensions of the Venturi pipe.</data>
+      <data key="d7">measurement, scale</data>
+      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Venturirohr/Düse" target="Venturi Effect">
+      <data key="d5">20.0</data>
+      <data key="d6">The Venturi effect is demonstrated by the pressure distribution within the Venturi pipe.</data>
+      <data key="d7">phenomenon, application</data>
+      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
+      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    </edge>
+  </graph>
+</graphml>
