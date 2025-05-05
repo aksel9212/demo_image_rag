@@ -239,7 +239,8 @@ def run_new_indexing():
     citations = []
     for doc in documents:
         doc_path = os.path.join(DOCS_DIR,doc)
-        image_description = asyncio.run(llm_model_func_google(prompt=describe_image_prompt,image=doc_path))
+        #image_description = asyncio.run(llm_model_func_google(prompt=describe_image_prompt,image=doc_path))
+        image_description = asyncio.run(llm_model_func_openai(prompt=describe_image_prompt,image=doc_path))
         print("image:",doc,image_description)
         citations.append(f"<IMG>{doc_path}</IMG>")
         docs_data.append(image_description)
