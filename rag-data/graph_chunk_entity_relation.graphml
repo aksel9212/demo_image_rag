@@ -11,845 +11,1699 @@
   <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
   <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
   <graph edgedefault="undirected">
-    <node id="Schiffspropeller">
-      <data key="d0">Schiffspropeller</data>
-      <data key="d1">object</data>
-      <data key="d2">A three-bladed ship propeller, depicted in dark gray to black.</data>
-      <data key="d3">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    <node id="Wärmetauscher">
+      <data key="d0">Wärmetauscher</data>
+      <data key="d1">category</data>
+      <data key="d2">A heat exchanger is a device designed to transfer heat between two or more fluids or gases, typically involving components such as cylindrical containers, tube bundles, and baffles to enhance thermal exchange.</data>
+      <data key="d3">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Zylindrischer Behälter">
+      <data key="d0">Zylindrischer Behälter</data>
+      <data key="d1">category</data>
+      <data key="d2">The cylindrical container is the main housing of the heat exchanger, a horizontally positioned transparent cylinder that makes the internal components visible.</data>
+      <data key="d3">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rohrbündel">
+      <data key="d0">Rohrbündel</data>
+      <data key="d1">category</data>
+      <data key="d2">The tube bundle consists of numerous parallel tubes within the cylindrical container, facilitating the flow and heat exchange between media.</data>
+      <data key="d3">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Leitbleche">
+      <data key="d0">Leitbleche</data>
+      <data key="d1">category</data>
+      <data key="d2">Baffles are two gray, circular plates positioned transversely to the cylinder's longitudinal axis with cutouts for the tubes; they direct flow around the tubes to improve heat transfer by creating turbulence.</data>
+      <data key="d3">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Zulauf- und Ablaufstutzen">
+      <data key="d0">Zulauf- und Ablaufstutzen</data>
+      <data key="d1">category</data>
+      <data key="d2">Inlet and outlet nozzles situated at the top and bottom ends of the cylinder, allowing the fluids or gases to enter and exit the heat exchanger.</data>
+      <data key="d3">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Strömungsvisualisierung">
+      <data key="d0">Strömungsvisualisierung</data>
+      <data key="d1">category</data>
+      <data key="d2">Flow visualization involves color-coded lines that map the paths of fluids or gases in the heat exchanger, representing temperature gradients and flow behaviors.</data>
+      <data key="d3">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </node>
     <node id="Strömungslinien">
       <data key="d0">Strömungslinien</data>
-      <data key="d1">object</data>
-      <data key="d2">Colored lines representing the flow of a fluid (likely water) around the propeller.&lt;SEP&gt;Mehrfarbige Linien, die den Verlauf einer Strömung in einem Zylinderkopf darstellen.&lt;SEP&gt;Mehrfarbige Linien, die um den Flügel und das Triebwerk herum verlaufen.</data>
-      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825&lt;SEP&gt;chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Strömungssimulation">
-      <data key="d0">Strömungssimulation</data>
-      <data key="d1">event</data>
-      <data key="d2">A computer simulation showing the flow of a fluid around a rotating ship propeller.&lt;SEP&gt;Strömungssimulation is a simulation of fluid flow, likely analyzed using ANSYS software.&lt;SEP&gt;A visualized flow simulation within the pipe system, showing different velocities or properties.&lt;SEP&gt;Strömungssimulation is a simulation of fluid dynamics, specifically computational fluid dynamics (CFD).</data>
-      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38&lt;SEP&gt;chunk-b439e21faabb43f494092d8078561451&lt;SEP&gt;chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Wirbelbildung">
-      <data key="d0">Wirbelbildung</data>
-      <data key="d1">event</data>
-      <data key="d2">The formation of vortices behind the propeller blades.</data>
-      <data key="d3">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Beschleunigung">
-      <data key="d0">Beschleunigung</data>
-      <data key="d1">event</data>
-      <data key="d2">The propeller accelerates the fluid (water) and directs it in a specific direction.</data>
-      <data key="d3">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Auto">
-      <data key="d0">Auto</data>
-      <data key="d1">object</data>
-      <data key="d2">The car is depicted as a 3D model or simulation with aerodynamic features.</data>
-      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Luftstrom">
-      <data key="d0">Luftstrom</data>
-      <data key="d1">phenomenon</data>
-      <data key="d2">The airflow is simulated around the car, represented by color-gradated lines.</data>
-      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Simulation">
-      <data key="d0">Simulation</data>
-      <data key="d1">event</data>
-      <data key="d2">The simulation is a computer-based representation of the airflow around a moving car.</data>
-      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Aerodynamik">
-      <data key="d0">Aerodynamik</data>
       <data key="d1">category</data>
-      <data key="d2">Aerodynamics is the study of the interaction between air and solid objects, such as cars.&lt;SEP&gt;Die Studie der Luftströmung um Objekte, insbesondere in Bezug auf Druckverteilung und Wirbelbildung.</data>
-      <data key="d3">chunk-524bc4cb2f76eb4d47dea807c265c109&lt;SEP&gt;chunk-586e18895bc17337c1feccdf0f0aa42f</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+      <data key="d2">Colored flow lines within the heat exchanger that transition from red (warm) to blue/turquoise (cold), illustrating the temperature and mixing of fluids during heat exchange.&lt;SEP&gt;Colored lines representing fluid flow direction and properties such as velocity, pressure, or temperature, visually indicating changes in fluid behavior.&lt;SEP&gt;Thin flow lines inside the pipes representing the movement and mixing of fluid within the system, colored differently to show properties.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457&lt;SEP&gt;chunk-20fcedb0e907e85748193d8cda41ccf4&lt;SEP&gt;chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Ansys">
-      <data key="d0">Ansys</data>
+    <node id="Wärmeaustausch">
+      <data key="d0">Wärmeaustausch</data>
+      <data key="d1">category</data>
+      <data key="d2">Heat exchange refers to the process occurring inside the heat exchanger where warm and cold fluids or gases transfer thermal energy to each other.</data>
+      <data key="d3">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="MANY">
+      <data key="d0">MANY</data>
+      <data key="d1">category</data>
+      <data key="d2">A quantifier indicating a large number or amount, used here to describe the quantity of entities and relationships referenced in the context.&lt;SEP&gt;A quantifier used to describe a large number or quantity of entities or relationships that were mentioned or involved in a previous extraction context.&lt;SEP&gt;Refers to a large unspecified quantity of entities and relationships involved in the extraction process, emphasizing quantity.&lt;SEP&gt;Refers to a large, unspecified number of entities and relationships that were intended to be extracted from a source text, indicating a substantial quantity or multitude of elements involved in the analysis or dataset.&lt;SEP&gt;Indicates a large number or quantity, used here to describe a substantial count of unnamed elements or items in a context.&lt;SEP&gt;Refers to a large quantity or number, indicating multiple entities or items within a given context or dataset. Often used to imply significant volume without specifying exact details.</data>
+      <data key="d3">chunk-a0040da0f403d5a95475e66fd8646d74&lt;SEP&gt;chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-04a7a9fe2892150c3fa485feab959457&lt;SEP&gt;chunk-a37edc1655f50e09505c4f2672f405b9&lt;SEP&gt;chunk-e4b59efe6ab973a11967d9eae4c7b7e5&lt;SEP&gt;chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_18.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="entities">
+      <data key="d0">entities</data>
+      <data key="d1">category</data>
+      <data key="d2">Discrete units or items such as persons, organizations, geographic locations, events, or categories identified within a document or dataset for analysis.&lt;SEP&gt;Objects or concepts identified and extracted from text, including organizations, persons, places, events, or categories.&lt;SEP&gt;Individual items or elements that have distinct identities, possibly including persons, organizations, places, events, or categories mentioned in the context of information extraction.&lt;SEP&gt;Refers to distinct units or components that exist independently within a system or context, often used broadly to represent people, organizations, places, events, or concepts.&lt;SEP&gt;Distinct objects or concepts identified within a text or dataset, which can include organizations, people, locations, events, or categories.&lt;SEP&gt;Discrete units or items that have distinct existence within a system or dataset, encompassing people, organizations, locations, events, or categories.</data>
+      <data key="d3">chunk-a0040da0f403d5a95475e66fd8646d74&lt;SEP&gt;chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-04a7a9fe2892150c3fa485feab959457&lt;SEP&gt;chunk-a37edc1655f50e09505c4f2672f405b9&lt;SEP&gt;chunk-e4b59efe6ab973a11967d9eae4c7b7e5&lt;SEP&gt;chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_18.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="relationships">
+      <data key="d0">relationships</data>
+      <data key="d1">category</data>
+      <data key="d2">Connections or associations between entities that describe how two or more entities are related based on specific interactions or attributes.&lt;SEP&gt;Connections or associations between entities, describing how they are linked or interact with each other within a given context.&lt;SEP&gt;Connections or associations between entities, reflecting how different entities interact, influence, or relate to one another within a given context.&lt;SEP&gt;Connections or associations between entities, representing how various entities are linked or interact within a context&lt;SEP&gt;The connections, associations, or interactions identified between entities within a dataset or document, indicating how these elements are linked or related.&lt;SEP&gt;Connections or associations identified between entities that characterize how they interact, relate, or influence one another.&lt;SEP&gt;Connections or associations between two or more entities based on context, activities, or attributes.&lt;SEP&gt;Connections or associations between two or more entities, which describe how these entities interact or are linked in various contexts.</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0&lt;SEP&gt;chunk-a0040da0f403d5a95475e66fd8646d74&lt;SEP&gt;chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-04a7a9fe2892150c3fa485feab959457&lt;SEP&gt;chunk-a37edc1655f50e09505c4f2672f405b9&lt;SEP&gt;chunk-20fcedb0e907e85748193d8cda41ccf4&lt;SEP&gt;chunk-e4b59efe6ab973a11967d9eae4c7b7e5&lt;SEP&gt;chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_18.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Formel-1-Auto">
+      <data key="d0">Formel-1-Auto</data>
+      <data key="d1">category</data>
+      <data key="d2">Ein Formel-1-Auto ist ein hochentwickeltes Rennfahrzeug, das für den Einsatz in der Formel-1-Motorsportserie konzipiert ist. Es zeichnet sich durch eine aerodynamische Bauweise aus, um maximale Geschwindigkeit und Kontrolle auf der Rennstrecke zu gewährleisten.</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Computersimulation der Luftströmung">
+      <data key="d0">Computersimulation der Luftströmung</data>
+      <data key="d1">event</data>
+      <data key="d2">Computersimulation der Luftströmung beschreibt eine digitale Nachbildung des Luftflusses um ein Objekt, hier spezifisch um ein Formel-1-Auto, um aerodynamische Eigenschaften wie Druck und Geschwindigkeit sichtbar zu machen.</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Luftströmung">
+      <data key="d0">Luftströmung</data>
+      <data key="d1">category</data>
+      <data key="d2">Airflow refers to the movement of air around the Formula racing car, affecting pressure distribution and vehicle aerodynamics.&lt;SEP&gt;Luftströmung bezieht sich auf die Bewegung der Luft um ein Objekt, die in der Aerodynamik untersucht wird, um Einflüsse auf Geschwindigkeit, Druck und Widerstand zu verstehen.&lt;SEP&gt;Luftströmung describes the airflow around the truck, represented by color-coded streamlines illustrating velocity and pressure variations.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-ee9b4f94ffee551d775d184a43647669&lt;SEP&gt;chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Fahrzeug">
+      <data key="d0">Fahrzeug</data>
+      <data key="d1">category</data>
+      <data key="d2">Fahrzeug in diesem Kontext ist das Formel-1-Auto, dargestellt in der Simulation mit seinen sichtbaren Komponenten wie Nase, vorderem Flügel und Vorderrädern.</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Farben">
+      <data key="d0">Farben</data>
+      <data key="d1">category</data>
+      <data key="d2">Die Farben (Rot, Orange, Gelb, Grün, Blau) dienen in der Simulation als visuelle Indikatoren für unterschiedliche Werte der Luftströmungsparameter wie Druck oder Geschwindigkeit.</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rennstrecke">
+      <data key="d0">Rennstrecke</data>
+      <data key="d1">geo</data>
+      <data key="d2">Rennstrecke ist die weiße Fläche unter dem Auto, die als Umgebung für das Formel-1-Rennen und die Simulation der Luftströmung dient.</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="MANY entities">
+      <data key="d0">MANY entities</data>
+      <data key="d1">category</data>
+      <data key="d2">A general reference to multiple distinct objects, concepts, people, organizations, or places mentioned or implied within the text or context. It signifies abundance or plurality of elements to be identified or extracted.&lt;SEP&gt;A plural reference indicating numerous entities, representing multiple distinct items, objects, or beings pertinent to the context of extraction or data processing tasks</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0&lt;SEP&gt;chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="extraction">
+      <data key="d0">extraction</data>
+      <data key="d1">category</data>
+      <data key="d2">The process or act of identifying and obtaining information about entities and relationships from a text or dataset.&lt;SEP&gt;The process or act of identifying, retrieving, or deriving information or data from a source text or system</data>
+      <data key="d3">chunk-420fad359816126ce89a0116b5e0b2e0&lt;SEP&gt;chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="LAVA">
+      <data key="d0">LAVA</data>
       <data key="d1">organization</data>
-      <data key="d2">Ansys is a software company that provides engineering simulation solutions.&lt;SEP&gt;Ansys is a software company that provides numerical simulation solutions, used to create the image.</data>
-      <data key="d3">chunk-dc8b4fc637fb92a27eb6e24d11a4d1cf&lt;SEP&gt;chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\7.png&lt;/IMG&gt;</data>
+      <data key="d2">LAVA is a software tool used for computational fluid dynamics (CFD) simulations that creates structured overset meshes, embedding aircraft models in fine grids of rectangular elements to accurately simulate airflow and pressure around the aircraft.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Velocity Streamline1">
-      <data key="d0">Velocity Streamline1</data>
-      <data key="d1">category</data>
-      <data key="d2">Velocity Streamline1 refers to the visualization of fluid flow velocity in a streamlines representation.&lt;SEP&gt;Velocity Streamline1 refers to the visualized velocity streamlines in the image.</data>
-      <data key="d3">chunk-dc8b4fc637fb92a27eb6e24d11a4d1cf&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\7.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Düse">
-      <data key="d0">Düse</data>
-      <data key="d1">object</data>
-      <data key="d2">The Düse (nozzle) is the central object in the image, which tapers from a wider to a narrower cross-section and then widens again.</data>
-      <data key="d3">chunk-dc8b4fc637fb92a27eb6e24d11a4d1cf</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\7.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="ANSYS">
-      <data key="d0">ANSYS</data>
+    <node id="Commercial CFD Software">
+      <data key="d0">Commercial CFD Software</data>
       <data key="d1">organization</data>
-      <data key="d2">ANSYS is a company that provides simulation software used for various analyses, including fluid dynamics.&lt;SEP&gt;ANSYS is a software company used for simulation and analysis, specifically for the flow simulation in the image.&lt;SEP&gt;ANSYS is a software company that provides engineering simulation and analysis tools, including ANSYS Fluent for fluid dynamics and heat transfer analysis.&lt;SEP&gt;Eine Firma, die Software für Ingenieursimulationen entwickelt, erkennbar am Logo im Bild.&lt;SEP&gt;ANSYS is a software company whose product was used for the simulation.</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825&lt;SEP&gt;chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38&lt;SEP&gt;chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+      <data key="d2">Commercial CFD software refers to proprietary or third-party computational fluid dynamics tools that generate unstructured, arbitrary polyhedral meshes, allowing flexible adaptation to complex geometries in aircraft simulations.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Kreisförmige Anordnung von Pfeilen">
-      <data key="d0">Kreisförmige Anordnung von Pfeilen</data>
+    <node id="Structured Overset Mesh">
+      <data key="d0">Structured Overset Mesh</data>
       <data key="d1">category</data>
-      <data key="d2">Kreisförmige Anordnung von Pfeilen represents a circular arrangement of arrows indicating fluid flow or movement.</data>
-      <data key="d3">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+      <data key="d2">A structured overset mesh is a numerical grid technique in CFD involving overlapping structured grids that conform closely to the geometry of the aircraft, enabling detailed and accurate simulation of fluid flow.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Zwei kleine Ellipsen">
-      <data key="d0">Zwei kleine Ellipsen</data>
+    <node id="Unstructured Polyhedral Mesh">
+      <data key="d0">Unstructured Polyhedral Mesh</data>
       <data key="d1">category</data>
-      <data key="d2">Zwei kleine Ellipsen are small ellipses that could represent inlets or outlets of the fluid flow.</data>
-      <data key="d3">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Koordinatensystem">
-      <data key="d0">Koordinatensystem</data>
-      <data key="d1">category</data>
-      <data key="d2">Koordinatensystem is a three-dimensional coordinate system used for spatial reference.</data>
-      <data key="d3">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Kühlkörper/Heizkörper">
-      <data key="d0">Kühlkörper/Heizkörper</data>
-      <data key="d1">object</data>
-      <data key="d2">A Kühlkörper/Heizkörper is a technical object used for heat transfer or temperature regulation, characterized by its elongated, ribbed structure.</data>
-      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Achsenkreuz">
-      <data key="d0">Achsenkreuz</data>
-      <data key="d1">object</data>
-      <data key="d2">An Achsenkreuz is a small coordinate system used to indicate spatial orientation in 3D space.</data>
-      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Farbcodierungsskala">
-      <data key="d0">Farbcodierungsskala</data>
-      <data key="d1">object</data>
-      <data key="d2">A Farbcodierungsskala is a color-coded scale used to represent temperature values, ranging from red (warm) to blue (cold).</data>
-      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Level1 Static Temperature">
-      <data key="d0">Level1 Static Temperature</data>
-      <data key="d1">category</data>
-      <data key="d2">Level1 Static Temperature refers to a static temperature distribution, likely related to the thermal analysis of the Kühlkörper/Heizkörper.</data>
-      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Temperaturwerte">
-      <data key="d0">Temperaturwerte</data>
-      <data key="d1">category</data>
-      <data key="d2">Temperaturwerte are temperature values measured in degrees Celsius, associated with specific colors on the Farbcodierungsskala.</data>
-      <data key="d3">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Rotor">
-      <data key="d0">Rotor</data>
-      <data key="d1">object</data>
-      <data key="d2">The rotor is a blue object with shovel-like structures, presumed to be rotating and influencing the flow in the channel.</data>
-      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Channel/Pipe">
-      <data key="d0">Channel/Pipe</data>
-      <data key="d1">object</data>
-      <data key="d2">The channel or pipe is a rectangular structure containing the rotating object and through which the fluid flows.</data>
-      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Flow Lines">
-      <data key="d0">Flow Lines</data>
-      <data key="d1">object</data>
-      <data key="d2">The flow lines are green lines representing the flow of fluid around the rotating object.</data>
-      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Color Palette">
-      <data key="d0">Color Palette</data>
-      <data key="d1">object</data>
-      <data key="d2">The color palette visualizes the speed of the flow, with different colors representing different velocities.</data>
-      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Coordinate System">
-      <data key="d0">Coordinate System</data>
-      <data key="d1">object</data>
-      <data key="d2">The coordinate system is a small grid in the lower right corner, likely used for measurement and reference.</data>
-      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Velocity">
-      <data key="d0">Velocity</data>
-      <data key="d1">category</data>
-      <data key="d2">Velocity refers to the speed of the fluid flow, measured in meters per second (m/s).</data>
-      <data key="d3">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Flow Simulation">
-      <data key="d0">Flow Simulation</data>
-      <data key="d1">event</data>
-      <data key="d2">A visualized flow simulation within the pipe system, showing different velocities or properties.&lt;SEP&gt;The flow simulation is a computer-aided analysis of fluid dynamics, showing how the rotating object affects the flow.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451&lt;SEP&gt;chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Computational Fluid Dynamics (CFD)">
-      <data key="d0">Computational Fluid Dynamics (CFD)</data>
-      <data key="d1">category</data>
-      <data key="d2">Computational Fluid Dynamics (CFD) is a category of numerical methods used to solve fluid dynamics problems.&lt;SEP&gt;Eine Methode zur Simulation von Strömungen um Objekte.</data>
-      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f&lt;SEP&gt;chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Centrifugal Pump">
-      <data key="d0">Centrifugal Pump</data>
-      <data key="d1">organization</data>
-      <data key="d2">A centrifugal pump is a type of pump that uses a rotating impeller to increase the pressure and flow rate of a fluid.</data>
-      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Radial Fan">
-      <data key="d0">Radial Fan</data>
-      <data key="d1">organization</data>
-      <data key="d2">A radial fan is a type of fan that uses a rotating impeller to increase the pressure and flow rate of a fluid.</data>
-      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+      <data key="d2">An unstructured polyhedral mesh is a CFD grid type composed of irregular, versatile polygonal cells that better adapt to complex geometries, often generated by commercial CFD software for aircraft flow simulations.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
     </node>
     <node id="Pressure Distribution">
       <data key="d0">Pressure Distribution</data>
       <data key="d1">category</data>
-      <data key="d2">Pressure distribution refers to the variation of pressure across a surface or within a fluid.</data>
-      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+      <data key="d2">Pressure distribution refers to the spatial variation of fluid pressure around the aircraft, visualized in CFD results as color-coded areas indicating zones of high and low pressure.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Velocity Distribution">
-      <data key="d0">Velocity Distribution</data>
+    <node id="Velocity Distribution (U-Vel)">
+      <data key="d0">Velocity Distribution (U-Vel)</data>
       <data key="d1">category</data>
-      <data key="d2">Velocity distribution refers to the variation of velocity across a surface or within a fluid.</data>
-      <data key="d3">chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
+      <data key="d2">Velocity distribution in the U-direction (U-Vel) represents the variation of flow speed along a particular axis around the aircraft, shown with colors representing high and low speeds in CFD visualizations.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
     </node>
-    <node id="STUDENT">
-      <data key="d0">STUDENT</data>
+    <node id="Computational Fluid Dynamics (CFD)">
+      <data key="d0">Computational Fluid Dynamics (CFD)</data>
       <data key="d1">category</data>
-      <data key="d2">STUDENT refers to a version of the Ansys software likely used for educational purposes.</data>
-      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+      <data key="d2">A computational method used to simulate fluid flow behavior, strongly indicated as the technique used in the depicted simulation.&lt;SEP&gt;Computational Fluid Dynamics (CFD) is a numerical analysis technique used to simulate fluid flows around objects, such as aircraft, utilizing various mesh generation methods to compute pressure and velocity fields.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457&lt;SEP&gt;chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Temperature Distribution">
-      <data key="d0">Temperature Distribution</data>
+    <node id="United Nations">
+      <data key="d0">United Nations</data>
+      <data key="d1">organization</data>
+      <data key="d2">An international organization founded in 1945 to promote peace, security, and cooperation among countries, consisting of multiple specialized agencies and programs that address issues such as human rights, development, and international law.&lt;SEP&gt;An international organization founded in 1945 to promote peace, security, international cooperation, and human rights among member states worldwide. It facilitates diplomacy, peacekeeping, development programs, and global policy coordination.&lt;SEP&gt;An international organization founded in 1945 to promote peace, security, and cooperation among member countries. It addresses global issues such as human rights, international law, economic development, and humanitarian aid.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e&lt;SEP&gt;chunk-932145f36fd8974c42af2d7ef2491267&lt;SEP&gt;chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="World Health Organization">
+      <data key="d0">World Health Organization</data>
+      <data key="d1">organization</data>
+      <data key="d2">A specialized agency of the United Nations responsible for international public health, coordinating global health responses, setting standards, and supporting member states in health initiatives.&lt;SEP&gt;A specialized agency of the United Nations responsible for international public health, coordinating responses to health emergencies and promoting health policy.&lt;SEP&gt;A specialized agency of the United Nations responsible for international public health, supporting countries in health policy, disease control, and health promotion.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e&lt;SEP&gt;chunk-932145f36fd8974c42af2d7ef2491267&lt;SEP&gt;chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Joe Biden">
+      <data key="d0">Joe Biden</data>
+      <data key="d1">person</data>
+      <data key="d2">The 46th President of the United States, responsible for U.S. domestic and international policies.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Paris Agreement">
+      <data key="d0">Paris Agreement</data>
+      <data key="d1">event</data>
+      <data key="d2">An international treaty adopted in 2015 aimed at combating climate change by limiting global warming to well below 2 degrees Celsius.&lt;SEP&gt;An international treaty adopted in 2015 under the United Nations Framework Convention on Climate Change to limit global warming to well below 2 degrees Celsius.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267&lt;SEP&gt;chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="climate change">
+      <data key="d0">climate change</data>
       <data key="d1">category</data>
-      <data key="d2">Temperature Distribution refers to the display of temperature values across the cylindrical body in the image.</data>
-      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+      <data key="d2">An environmental phenomenon characterized by long-term shifts in temperatures and weather patterns, primarily caused by human activities such as burning fossil fuels.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Cylindrical Body">
-      <data key="d0">Cylindrical Body</data>
-      <data key="d1">object</data>
-      <data key="d2">Cylindrical Body is a long, cylindrical object (likely a pipe or rod) shown in the image with a temperature distribution.</data>
-      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+    <node id="United States">
+      <data key="d0">United States</data>
+      <data key="d1">geo</data>
+      <data key="d2">A country in North America, involved in international diplomacy and leader in global economic and political matters.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="COP26 Summit">
+      <data key="d0">COP26 Summit</data>
+      <data key="d1">event</data>
+      <data key="d2">The 26th UN Climate Change Conference held in 2021, where parties discussed and negotiated further commitments to reduce greenhouse gas emissions.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="António Guterres">
+      <data key="d0">António Guterres</data>
+      <data key="d1">person</data>
+      <data key="d2">Secretary-General of the United Nations, responsible for overseeing the UN's agenda and facilitating international cooperation.&lt;SEP&gt;The Secretary-General of the United Nations since 2017, leading the organization in addressing global challenges such as peacekeeping, climate change, and humanitarian crises.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267&lt;SEP&gt;chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Green Climate Fund">
+      <data key="d0">Green Climate Fund</data>
+      <data key="d1">organization</data>
+      <data key="d2">A fund established within the framework of the UNFCCC to assist developing countries in adaptation and mitigation practices to counter climate change.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Sustainable Development Goals">
+      <data key="d0">Sustainable Development Goals</data>
+      <data key="d1">category</data>
+      <data key="d2">A collection of 17 global goals set by the United Nations General Assembly in 2015 to achieve a better and more sustainable future by 2030.&lt;SEP&gt;A set of 17 global goals established by the United Nations aimed at ending poverty, protecting the planet, and ensuring prosperity for all by 2030 through targets spanning social, economic, and environmental development.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e&lt;SEP&gt;chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Global Environment Facility">
+      <data key="d0">Global Environment Facility</data>
+      <data key="d1">organization</data>
+      <data key="d2">An international partnership of countries, international institutions, NGOs, and private sector entities providing funding to address global environmental issues.</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="developing countries">
+      <data key="d0">developing countries</data>
+      <data key="d3">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d2">The Green Climate Fund provides financial resources to developing countries to assist in climate change mitigation and adaptation."|&gt;"financial aid</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="LKW">
+      <data key="d0">LKW</data>
+      <data key="d1">category</data>
+      <data key="d2">LKW refers to a large truck vehicle depicted in the simulation, around which airflow dynamics are analyzed.</data>
+      <data key="d3">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Numerische Simulation">
+      <data key="d0">Numerische Simulation</data>
+      <data key="d1">category</data>
+      <data key="d2">Numerische Simulation denotes the computational method used to visualize and analyze the airflow and pressure distribution around the truck.</data>
+      <data key="d3">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Turbulenzen">
+      <data key="d0">Turbulenzen</data>
+      <data key="d1">category</data>
+      <data key="d2">Turbulenzen refers to areas of disturbed airflow with swirling motions beneath the truck, indicating aerodynamic complexity.</data>
+      <data key="d3">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Aerodynamik">
+      <data key="d0">Aerodynamik</data>
+      <data key="d1">category</data>
+      <data key="d2">Aerodynamics is the study and application of airflow around the Formula racing car to optimize downforce, reduce drag, and enhance performance.&lt;SEP&gt;Aerodynamik covers the study of air movement and forces around the truck, aiming to optimize vehicle design for efficiency and performance.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Many entities and relationships">
+      <data key="d0">Many entities and relationships</data>
+      <data key="d1">category</data>
+      <data key="d2">This category refers to the abundance of distinct entities and relationships within a text or data set, highlighting the numerous elements relevant for extraction and analysis.</data>
+      <data key="d3">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Entities">
+      <data key="d0">Entities</data>
+      <data key="d1">category</data>
+      <data key="d2">Elements such as persons, organizations, locations, events, or categories mentioned or referenced in text that are identifiable and classifiable.</data>
+      <data key="d3">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Relationships">
+      <data key="d0">Relationships</data>
+      <data key="d1">category</data>
+      <data key="d2">Connections or associations discernible between two or more entities based on their interactions, co-occurrences, or contextual links within text.</data>
+      <data key="d3">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Computersimulation von Fluidströmung">
+      <data key="d0">Computersimulation von Fluidströmung</data>
+      <data key="d1">category</data>
+      <data key="d2">A computerized simulation visualizing fluid flow dynamics through a complex 3D structure, employing computational methods such as CFD or FEA to analyze fluid behavior.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Spiralstruktur">
+      <data key="d0">Spiralstruktur</data>
+      <data key="d1">category</data>
+      <data key="d2">A spiral or helical geometric structure wrapped around a central axis within the simulation, representing a part of the device influencing fluid flow.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Zylindrischer Kanal">
+      <data key="d0">Zylindrischer Kanal</data>
+      <data key="d1">category</data>
+      <data key="d2">A straight, cylindrical channel connected to the spiral structure, serving as part of the fluid's flow path in the simulation.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rotierendes Rad">
+      <data key="d0">Rotierendes Rad</data>
+      <data key="d1">category</data>
+      <data key="d2">A red, wheel-like rotating component at the center of the spiral, potentially representing a rotor, impeller, turbine, or static blades influencing fluid movement.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Ringförmige Strukturen">
+      <data key="d0">Ringförmige Strukturen</data>
+      <data key="d1">category</data>
+      <data key="d2">Green, ring-shaped structures surrounding the rotating wheel, possibly representing static components that guide or affect the fluid flow.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Finite-Elemente-Analyse (FEA)">
+      <data key="d0">Finite-Elemente-Analyse (FEA)</data>
+      <data key="d1">category</data>
+      <data key="d2">A numerical method used to perform structural or fluid simulations, likely employed to analyze the fluid flow and device performance in this context.</data>
+      <data key="d3">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Strömungssimulation">
+      <data key="d0">Strömungssimulation</data>
+      <data key="d1">category</data>
+      <data key="d2">A flow simulation representing fluid dynamics inside a rectangular channel divided by internal walls into several chambers.&lt;SEP&gt;A flow simulation visualizes the movement of fluid (air or water) around an object, showing velocity, pressure, and turbulence characteristics through color-coded streamlines.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e&lt;SEP&gt;chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rechteckiger Kanal">
+      <data key="d0">Rechteckiger Kanal</data>
+      <data key="d1">geo</data>
+      <data key="d2">A rectangular channel divided internally into multiple chambers, designed to visualize fluid flow and vortex formation.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Strömung">
+      <data key="d0">Strömung</data>
+      <data key="d1">category</data>
+      <data key="d2">The complex and turbulent fluid flow inside the reactor indicated by arrows showing direction and velocity, featuring vortices and circulations, especially near the agitator and baffles.&lt;SEP&gt;The fluid flow inside the channel, characterized by direction, speed, vortices, and branching behavior affected by the channel's geometry.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e&lt;SEP&gt;chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Stromlinien">
+      <data key="d0">Stromlinien</data>
+      <data key="d1">category</data>
+      <data key="d2">Streamlines visualization method showing flow direction and speed density, using color coding from blue to red to indicate velocity.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Vektoren">
+      <data key="d0">Vektoren</data>
+      <data key="d1">category</data>
+      <data key="d2">Vector visualization method depicting the direction and magnitude of fluid velocity at specific points within the channel, color-coded to represent speed.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="New York City">
+      <data key="d0">New York City</data>
+      <data key="d1">geo</data>
+      <data key="d2">Major city in the United States where the United Nations headquarters is located, serving as the venue for many international meetings and events.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="General Assembly">
+      <data key="d0">General Assembly</data>
+      <data key="d1">event</data>
+      <data key="d2">A principal organ of the United Nations composed of all member states, responsible for discussing and making decisions on international issues such as development, peace, and security through resolutions and declarations.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Security Council">
+      <data key="d0">Security Council</data>
+      <data key="d1">event</data>
+      <data key="d2">A crucial body of the United Nations tasked with maintaining international peace and security, having the authority to establish peacekeeping operations and impose sanctions.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="UNICEF">
+      <data key="d0">UNICEF</data>
+      <data key="d1">organization</data>
+      <data key="d2">United Nations International Children's Emergency Fund, an agency dedicated to advocating for and providing humanitarian and developmental aid to children worldwide.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="International Court of Justice">
+      <data key="d0">International Court of Justice</data>
+      <data key="d1">organization</data>
+      <data key="d2">The principal judicial organ of the United Nations, adjudicating legal disputes between states and providing advisory opinions on international legal questions.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Peacekeeping Missions">
+      <data key="d0">Peacekeeping Missions</data>
+      <data key="d1">event</data>
+      <data key="d2">Operations conducted by the United Nations involving the deployment of military and civilian personnel to conflict zones to help maintain or restore peace and security.</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Wirbel">
+      <data key="d0">Wirbel</data>
+      <data key="d3">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d2">The rectangular channel's internal chambers induce vortex formation in the fluid flow.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rührtankreaktor">
+      <data key="d0">Rührtankreaktor</data>
+      <data key="d1">category</data>
+      <data key="d2">A cylindrical stirred tank reactor with a hemispherical bottom made of transparent material, allowing visualization of internal chemical mixing and reaction processes.</data>
+      <data key="d3">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rührer">
+      <data key="d0">Rührer</data>
+      <data key="d1">category</data>
+      <data key="d2">An agitator inside the reactor composed of several slightly inclined horizontal discs mounted on a central shaft, designed to promote mixing of the reactor contents.</data>
+      <data key="d3">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Ablenkbleche">
+      <data key="d0">Ablenkbleche</data>
+      <data key="d1">category</data>
+      <data key="d2">Vertical baffles attached along the inside walls of the reactor to improve flow circulation and reduce dead zones within the stirred tank reactor.</data>
+      <data key="d3">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="3D-Simulation">
+      <data key="d0">3D-Simulation</data>
+      <data key="d1">category</data>
+      <data key="d2">A three-dimensional simulation that visualizes chemical reactions, flow patterns, concentration, temperature, and velocity distributions inside the stirred tank reactor.</data>
+      <data key="d3">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Farbgebung im Reaktor">
+      <data key="d0">Farbgebung im Reaktor</data>
+      <data key="d1">category</data>
+      <data key="d2">Color coding inside the reactor that likely represents concentration, temperature, or fluid velocity, varying from blue (low) to red (high).</data>
+      <data key="d3">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Formel-Rennwagen">
+      <data key="d0">Formel-Rennwagen</data>
+      <data key="d1">category</data>
+      <data key="d2">A Formula racing car is a high-performance single-seater vehicle designed for professional motorsport racing, characterized by advanced aerodynamics and engineering to optimize speed and handling.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Frontflügel">
+      <data key="d0">Frontflügel</data>
+      <data key="d1">category</data>
+      <data key="d2">The front wing is a critical aerodynamic component located at the front of the Formula racing car, responsible for generating downforce and directing airflow around the vehicle.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Strömungsgeschwindigkeit">
+      <data key="d0">Strömungsgeschwindigkeit</data>
+      <data key="d1">category</data>
+      <data key="d2">Flow velocity describes the speed of the air moving around the Formula racing car, influencing pressure zones and aerodynamic performance.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Druckverteilung">
+      <data key="d0">Druckverteilung</data>
+      <data key="d1">category</data>
+      <data key="d2">Pressure distribution indicates the variation of air pressure over different parts of the Formula racing car's surface, affecting downforce and drag.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Anpressdruck">
+      <data key="d0">Anpressdruck</data>
+      <data key="d1">category</data>
+      <data key="d2">Downforce is the aerodynamic force that presses the car against the track, improving tire grip and stability at high speed.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Luftwiderstand">
+      <data key="d0">Luftwiderstand</data>
+      <data key="d1">category</data>
+      <data key="d2">Air resistance or drag refers to the aerodynamic force opposing the Formula racing car's forward motion, affecting its speed and efficiency.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="last extraction">
+      <data key="d0">last extraction</data>
+      <data key="d1">event</data>
+      <data key="d2">The most recent process or instance of extracting entities and relationships from the given input text, indicating prior analytical effort.&lt;SEP&gt;The previous process or output stage where entities and relationships were identified or extracted, but with noted omissions or missing elements.</data>
+      <data key="d3">chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="CFD Software">
+      <data key="d0">CFD Software</data>
+      <data key="d1">organization</data>
+      <data key="d2">CFD Software refers to numerical fluid dynamics software used to simulate fluid flow, turbulence, and related physical phenomena in environments such as rooms or structures.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Grey Blocks">
+      <data key="d0">Grey Blocks</data>
+      <data key="d1">category</data>
+      <data key="d2">Grey blocks likely represent objects or obstacles within the simulated space, such as furniture, equipment, or structural elements that influence fluid flow.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Fluid Flow Simulation">
+      <data key="d0">Fluid Flow Simulation</data>
+      <data key="d1">event</data>
+      <data key="d2">The simulation event depicts the flow velocity and turbulence of a fluid, such as air or water, within a defined room or structure, intended for analysis of ventilation or pollutant dispersion.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Coordinate System">
+      <data key="d0">Coordinate System</data>
+      <data key="d1">category</data>
+      <data key="d2">A spatial reference framework with X, Y, and Z axes used to orient and analyze the position and direction of fluid flow and objects within the simulation.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
     </node>
     <node id="Color Scale">
       <data key="d0">Color Scale</data>
-      <data key="d1">object</data>
-      <data key="d2">Color Scale is a scale on the left side of the image that displays temperature values in Kelvin (K).</data>
-      <data key="d3">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
+      <data key="d1">category</data>
+      <data key="d2">A color-coded scale illustrating fluid velocity in meters per second from low (blue) to high (red), used to visualize speed variations within the simulation.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
     </node>
-    <node id="YouTube">
-      <data key="d0">YouTube</data>
+    <node id="Room or Structure">
+      <data key="d0">Room or Structure</data>
+      <data key="d1">geo</data>
+      <data key="d2">The physical environment represented in the simulation, bounded by transparent walls and containing objects that affect fluid movements.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="OpenAI">
+      <data key="d0">OpenAI</data>
       <data key="d1">organization</data>
-      <data key="d2">YouTube is a video-sharing platform where tutorials and educational content, such as the ANSYS Fluent tutorial, are shared.</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+      <data key="d2">OpenAI is an AI research and deployment company focused on creating safe artificial general intelligence (AGI) that benefits all of humanity. They develop advanced AI models and tools, including language models like GPT series.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
     </node>
-    <node id="ANSYS FLUENT">
-      <data key="d0">ANSYS FLUENT</data>
-      <data key="d1">software</data>
-      <data key="d2">ANSYS Fluent is a computational fluid dynamics (CFD) software used for fluid flow, heat transfer, and mass transport simulations.</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Spiralförmige (helikale) Rohrschlange">
-      <data key="d0">Spiralförmige (helikale) Rohrschlange</data>
-      <data key="d1">object</data>
-      <data key="d2">The spiral-shaped pipe coil is a geometric configuration used for heat transfer analysis in fluid dynamics.</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Pressure Contour">
-      <data key="d0">Pressure Contour</data>
+    <node id="GPT series">
+      <data key="d0">GPT series</data>
       <data key="d1">category</data>
-      <data key="d2">Pressure Contour refers to a type of visualization used to represent pressure values across a surface or in a fluid.</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+      <data key="d2">The GPT series refers to a family of advanced language models developed by OpenAI, designed to understand and generate human-like text based on input prompts. Notable models include GPT-3 and GPT-4.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Fluid Heat Transfer Analysis">
-      <data key="d0">Fluid Heat Transfer Analysis</data>
+    <node id="Artificial General Intelligence (AGI)">
+      <data key="d0">Artificial General Intelligence (AGI)</data>
       <data key="d1">category</data>
-      <data key="d2">Fluid Heat Transfer Analysis is a study area within engineering that deals with the transfer of heat in fluids, crucial for designing and optimizing systems.</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+      <data key="d2">AGI stands for Artificial General Intelligence, a type of AI with the ability to understand, learn, and apply knowledge across a wide range of tasks flexibly and independently, similar to human intelligence.</data>
+      <data key="d3">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
     </node>
-    <node id="ANSYS2020 R1">
-      <data key="d0">ANSYS2020 R1</data>
-      <data key="d1">software version</data>
-      <data key="d2">ANSYS2020 R1 refers to a specific version of the ANSYS software suite, likely used for the simulation.</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    <node id="Numerical Simulation">
+      <data key="d0">Numerical Simulation</data>
+      <data key="d1">category</data>
+      <data key="d2">A computational method used to model and visualize fluid flow problems, showing temperature and residence time distributions.</data>
+      <data key="d3">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
     </node>
-    <node id="ANSYS FLUENT TUTORIAL">
-      <data key="d0">ANSYS FLUENT TUTORIAL</data>
-      <data key="d3">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d2">The ANSYS Fluent tutorial is likely a video or series of videos hosted on YouTube.</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
+    <node id="Temperature">
+      <data key="d0">Temperature</data>
+      <data key="d1">category</data>
+      <data key="d2">A physical quantity representing the degree of heat, measured here in Kelvin, ranging from 380 to 732 K across the flow field in the simulation.</data>
+      <data key="d3">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Zylinderkopf">
-      <data key="d0">Zylinderkopf</data>
-      <data key="d1">object</data>
-      <data key="d2">Ein Schnittmodell eines Zylinderkopfes eines Verbrennungsmotors, das Ventile, Brennraum und Kanäle zeigt.</data>
-      <data key="d3">chunk-760959160ff9d1e402b507ae86fc5825</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    <node id="Residence Time">
+      <data key="d0">Residence Time</data>
+      <data key="d1">category</data>
+      <data key="d2">The time duration fluid elements spend within a region of the flow, measured in milliseconds from 0 to 20 ms in the simulation.</data>
+      <data key="d3">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Farbskala">
-      <data key="d0">Farbskala</data>
-      <data key="d1">object</data>
-      <data key="d2">A vertical color scale is located on the left side of the image, representing pressure values.&lt;SEP&gt;Eine farbliche Darstellung einer physikalischen Größe, vermutlich Geschwindigkeit oder Druck, mit Farben von Blau (niedrig) bis Rot (hoch).</data>
-      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    <node id="Rectangular Pipe">
+      <data key="d0">Rectangular Pipe</data>
+      <data key="d1">category</data>
+      <data key="d2">The flow domain in the simulation, characterized by a rectangular shape with narrowed inlet and outlet sections influencing fluid dynamics.</data>
+      <data key="d3">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Verwirbelung">
-      <data key="d0">Verwirbelung</data>
+    <node id="Cylindrical Obstacles">
+      <data key="d0">Cylindrical Obstacles</data>
+      <data key="d1">category</data>
+      <data key="d2">Three rows of circular objects inside the pipe, likely cylinders or spheres, acting as obstacles that affect the fluid flow by inducing vortices and turbulence.</data>
+      <data key="d3">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Flow Lines">
+      <data key="d0">Flow Lines</data>
+      <data key="d1">category</data>
+      <data key="d2">Lines representing the trajectories of fluid particles over time, indicating flow direction and patterns like vortices and turbulence.&lt;SEP&gt;Visual representations of fluid pathlines in the simulation, depicted by blue and red lines showing curvature and turbulence around obstacles.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952&lt;SEP&gt;chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Apple Inc.">
+      <data key="d0">Apple Inc.</data>
+      <data key="d1">organization</data>
+      <data key="d2">Apple Inc. is a multinational technology company specializing in the design, manufacture, and marketing of consumer electronics, computer software, and online services. Its product line includes the iPhone, iPad, Mac computers, Apple Watch, and services like the App Store, iCloud, and Apple Music.&lt;SEP&gt;Apple Inc. is a multinational technology company that designs, manufactures, and markets consumer electronics, software, and online services. It is known for its innovative products including the iPhone, iPad, Mac computers, and services like the App Store and iCloud.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313&lt;SEP&gt;chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Tim Cook">
+      <data key="d0">Tim Cook</data>
+      <data key="d1">person</data>
+      <data key="d2">Tim Cook is the CEO of Apple Inc., responsible for overseeing the company's global operations and strategic direction.&lt;SEP&gt;Tim Cook is the CEO of Apple Inc., responsible for overseeing the company's overall operations and strategic direction.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313&lt;SEP&gt;chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="iPhone">
+      <data key="d0">iPhone</data>
+      <data key="d1">category</data>
+      <data key="d2">The iPhone is a line of smartphones designed and marketed by Apple Inc., known for their advanced technology, user interface, and integration with Apple's ecosystem.&lt;SEP&gt;The iPhone is a line of smartphones designed and marketed by Apple Inc., running on the iOS operating system, notable for its design, user interface, and ecosystem integration.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313&lt;SEP&gt;chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="App Store">
+      <data key="d0">App Store</data>
+      <data key="d1">category</data>
+      <data key="d2">The App Store is Apple's digital distribution platform for mobile apps on iOS devices, offering millions of applications for iPhone and iPad users.</data>
+      <data key="d3">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Cupertino">
+      <data key="d0">Cupertino</data>
+      <data key="d1">geo</data>
+      <data key="d2">Cupertino is a city in California, USA, known as the headquarters location of Apple Inc.</data>
+      <data key="d3">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rotor">
+      <data key="d0">Rotor</data>
+      <data key="d1">category</data>
+      <data key="d2">A rotor is a rotating component of a wind turbine or similar device, consisting of multiple curved blades arranged in a ring, designed to interact with fluid flow to convert energy.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Fluid">
+      <data key="d0">Fluid</data>
+      <data key="d1">category</data>
+      <data key="d2">A fluid such as air or water that moves around the rotor, characterized by varying speed and pressure, causing complex flow interactions including turbulence.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Turbulence">
+      <data key="d0">Turbulence</data>
+      <data key="d1">category</data>
+      <data key="d2">Turbulence refers to chaotic, unsteady fluid flow regions with irregular, swirling motions indicating energy loss and flow instabilities behind the object.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Steve Jobs">
+      <data key="d0">Steve Jobs</data>
+      <data key="d1">person</data>
+      <data key="d2">Steve Jobs was a co-founder and former CEO of Apple Inc., credited with driving the company's innovation and product development until his passing in 2011.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Silicon Valley">
+      <data key="d0">Silicon Valley</data>
+      <data key="d1">geo</data>
+      <data key="d2">Silicon Valley is a region in Northern California renowned as a global center for high technology and innovation, home to many leading tech companies including Apple Inc.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Apple Event 2023">
+      <data key="d0">Apple Event 2023</data>
       <data key="d1">event</data>
-      <data key="d2">Eine Verwirbelung im Brennraum, die für eine gute Vermischung von Kraftstoff und Luft wichtig ist.</data>
-      <data key="d3">chunk-760959160ff9d1e402b507ae86fc5825</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+      <data key="d2">An Apple Inc. product launch event held in 2023, featuring announcements of new hardware and software updates.</data>
+      <data key="d3">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Computersimulation">
+      <data key="d0">Computersimulation</data>
+      <data key="d1">category</data>
+      <data key="d2">A digital simulation modeling liquid flow within a piping system, illustrating fluid dynamics through visual representations.</data>
+      <data key="d3">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Flüssigkeitsströmung">
+      <data key="d0">Flüssigkeitsströmung</data>
+      <data key="d1">category</data>
+      <data key="d2">The movement of liquid through pipes in the system, characterized by varying properties like temperature and velocity.</data>
+      <data key="d3">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
     </node>
     <node id="Rohrleitungssystem">
       <data key="d0">Rohrleitungssystem</data>
-      <data key="d1">object</data>
-      <data key="d2">A complex 3D model of a pipe system with a horizontal main pipe and a vertical branch.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Farblegende">
-      <data key="d0">Farblegende</data>
-      <data key="d1">object</data>
-      <data key="d2">A vertical color legend ranging from blue (low) to red (high), associated with velocity magnitude.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Dialogfenster">
-      <data key="d0">Dialogfenster</data>
-      <data key="d1">object</data>
-      <data key="d2">A dialog box from a flow simulation software, containing input fields and options.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Datenvisualisierung">
-      <data key="d0">Datenvisualisierung</data>
-      <data key="d1">event</data>
-      <data key="d2">The use of color legends and pipe system coloring to visually represent numerical data (velocity values).</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Software-Interaktion">
-      <data key="d0">Software-Interaktion</data>
-      <data key="d1">event</data>
-      <data key="d2">The interaction with software to configure or analyze simulation results.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Pipe System">
-      <data key="d0">Pipe System</data>
-      <data key="d1">object</data>
-      <data key="d2">A complex 3D model of a pipe system with a horizontal main pipe and a vertical branch.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Color Legend">
-      <data key="d0">Color Legend</data>
-      <data key="d1">object</data>
-      <data key="d2">A vertical color legend ranging from blue (low) to red (high), associated with velocity magnitude.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Dialog Box">
-      <data key="d0">Dialog Box</data>
-      <data key="d1">object</data>
-      <data key="d2">A dialog box from a flow simulation software, containing input fields and options.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Data Visualization">
-      <data key="d0">Data Visualization</data>
-      <data key="d1">event</data>
-      <data key="d2">The use of color legends and pipe system coloring to visually represent numerical data (velocity values).</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Software Interaction">
-      <data key="d0">Software Interaction</data>
-      <data key="d1">event</data>
-      <data key="d2">The interaction with software to configure or analyze simulation results.</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="velocity magnitude">
-      <data key="d0">velocity magnitude</data>
-      <data key="d3">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d2">The color legend represents the velocity magnitude of the flow.</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </node>
-    <node id="Velocity Magnitude">
-      <data key="d0">Velocity Magnitude</data>
-      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d2">The color legend represents the velocity magnitude of the flow.&lt;SEP&gt;Velocity Magnitude is a category for measuring the speed of the fluid flow.</data>
       <data key="d1">category</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+      <data key="d2">A piping system consisting of multiple interconnected cylindrical pipes where fluid flow is studied.</data>
+      <data key="d3">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Rohr">
-      <data key="d0">Rohr</data>
-      <data key="d1">object</data>
-      <data key="d2">not in entity types</data>
-      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
-    </node>
-    <node id="Rotorschaufeln">
-      <data key="d0">Rotorschaufeln</data>
-      <data key="d1">object</data>
-      <data key="d2">not in entity types</data>
-      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
-    </node>
-    <node id="Total Pressure">
-      <data key="d0">Total Pressure</data>
+    <node id="Hauptrohr">
+      <data key="d0">Hauptrohr</data>
       <data key="d1">category</data>
-      <data key="d2">Total Pressure is a category for measuring the pressure of the fluid flow.</data>
-      <data key="d3">chunk-d19accac0df57fe02efe95554fad3321</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
+      <data key="d2">The main cylindrical pipe in the system, featuring a color spectrum on its surface to indicate fluid properties.</data>
+      <data key="d3">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Flugzeugflügel">
-      <data key="d0">Flugzeugflügel</data>
-      <data key="d1">object</data>
-      <data key="d2">Ein Teil eines Flugzeugflügels ist deutlich zu sehen, einschließlich eines Teils der Tragfläche.</data>
-      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    <node id="Zylindrisches Rohr von links">
+      <data key="d0">Zylindrisches Rohr von links</data>
+      <data key="d1">category</data>
+      <data key="d2">A secondary cylindrical pipe entering the main pipe from the left, transparent and containing turquoise flow lines.</data>
+      <data key="d3">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Triebwerk">
-      <data key="d0">Triebwerk</data>
-      <data key="d1">object</data>
-      <data key="d2">Ein Triebwerk (vermutlich ein Turbofan) ist unter dem Flügel montiert.</data>
-      <data key="d3">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    <node id="Zylindrisches Rohr von rechts">
+      <data key="d0">Zylindrisches Rohr von rechts</data>
+      <data key="d1">category</data>
+      <data key="d2">A secondary cylindrical pipe entering the main pipe from the right, transparent and containing color-gradient flow lines from green to brown.</data>
+      <data key="d3">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Venturirohr/Düse">
-      <data key="d0">Venturirohr/Düse</data>
-      <data key="d1">object</data>
-      <data key="d2">The central object is a pipe with a narrowing in the middle (Venturi shape), consisting of a wide initial section, a narrowing in the middle, and an expanding end section.</data>
-      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    <node id="Mechanical Device">
+      <data key="d0">Mechanical Device</data>
+      <data key="d1">category</data>
+      <data key="d2">A mechanical device involving fluid flow, modeled with complex geometry and designed to direct and reduce fluid velocity through its cavity.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Abstandsanzeige">
-      <data key="d0">Abstandsanzeige</data>
-      <data key="d1">object</data>
-      <data key="d2">A horizontal bar is located at the bottom of the image, labeled with 0,000 m, 1,000 m, and 2,000 m, indicating a length measurement or scale.</data>
-      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    <node id="Fluid Flow">
+      <data key="d0">Fluid Flow</data>
+      <data key="d1">category</data>
+      <data key="d2">The movement of fluid inside the mechanical device's cavity, characterized by varying speeds and flow patterns, including laminar flow and vortices.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Pressure1">
-      <data key="d0">Pressure1</data>
-      <data key="d1">label</data>
-      <data key="d2">A label confirming that the color representation visualizes pressure.</data>
-      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    <node id="Flow Visualization">
+      <data key="d0">Flow Visualization</data>
+      <data key="d1">category</data>
+      <data key="d2">A visualization technique using color contours and flow lines to depict velocity distribution and fluid particle paths inside the device.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
     </node>
-    <node id="Venturi Effect">
-      <data key="d0">Venturi Effect</data>
-      <data key="d1">phenomenon</data>
-      <data key="d2">The Venturi effect is a phenomenon where the pressure of a fluid decreases as it flows through a constricted section of a pipe.</data>
-      <data key="d3">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d4">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+    <node id="Color Contours">
+      <data key="d0">Color Contours</data>
+      <data key="d1">category</data>
+      <data key="d2">Graphical representation of fluid velocity in the device, ranging from low speeds (blue) to high speeds (red), illustrating speed variations.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
     </node>
-    <edge source="Schiffspropeller" target="Strömungslinien">
-      <data key="d5">16.0</data>
-      <data key="d6">The propeller affects the flow lines, causing them to change direction and form vortices.</data>
-      <data key="d7">physical interaction, fluid dynamics</data>
-      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    <node id="Main Body">
+      <data key="d0">Main Body</data>
+      <data key="d1">category</data>
+      <data key="d2">The massive gray primary structure of the mechanical device, featuring rounded, angular, and cut-out regions forming the core geometry.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Cavity">
+      <data key="d0">Cavity</data>
+      <data key="d1">category</data>
+      <data key="d2">The internal hollow space within the main body where the fluid flow occurs, showing complex flow dynamics.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Attachment">
+      <data key="d0">Attachment</data>
+      <data key="d1">category</data>
+      <data key="d2">An additional complex geometric part on top of the main body, connected to it and containing a cylindrical component inserted into the cavity.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Exhaust Opening">
+      <data key="d0">Exhaust Opening</data>
+      <data key="d1">category</data>
+      <data key="d2">An opening at the bottom of the cavity through which the fluid exits, where flow becomes irregular in direction and speed.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="COVID-19 Pandemic">
+      <data key="d0">COVID-19 Pandemic</data>
+      <data key="d1">event</data>
+      <data key="d2">A global health crisis starting in late 2019, caused by the outbreak of the novel coronavirus SARS-CoV-2, leading to widespread illness, economic disruption, and significant international responses.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Global Warming">
+      <data key="d0">Global Warming</data>
+      <data key="d1">category</data>
+      <data key="d2">The long-term increase in Earth's average surface temperature due to human activities such as fossil fuel burning and deforestation, leading to climate change.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Greenpeace">
+      <data key="d0">Greenpeace</data>
+      <data key="d1">organization</data>
+      <data key="d2">An international environmental organization that campaigns for issues including climate change, deforestation, overfishing, and anti-nuclear issues through direct action and lobbying.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="COP26">
+      <data key="d0">COP26</data>
+      <data key="d1">event</data>
+      <data key="d2">The 26th UN Climate Change Conference of the Parties held in 2021, where world leaders negotiated measures to reduce carbon emissions and combat climate change.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="European Union">
+      <data key="d0">European Union</data>
+      <data key="d1">organization</data>
+      <data key="d2">A political and economic union of 27 European countries that promotes economic integration, political cooperation, and regional security.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Arctic">
+      <data key="d0">Arctic</data>
+      <data key="d1">geo</data>
+      <data key="d2">The polar region located at the northernmost part of Earth, experiencing significant effects from global warming including ice melt and ecosystem changes.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Deforestation">
+      <data key="d0">Deforestation</data>
+      <data key="d1">category</data>
+      <data key="d2">The clearing or thinning of forests by humans, often for agriculture or urban development, impacting biodiversity, carbon cycles, and climate.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Sustainable Development">
+      <data key="d0">Sustainable Development</data>
+      <data key="d1">category</data>
+      <data key="d2">Development that meets the needs of the present without compromising the ability of future generations to meet their own needs, encompassing economic, social, and environmental dimensions.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="John Kerry">
+      <data key="d0">John Kerry</data>
+      <data key="d1">person</data>
+      <data key="d2">The United States Special Presidential Envoy for Climate, involved in international climate negotiations and promoting global efforts to reduce greenhouse gas emissions.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Amazon Rainforest">
+      <data key="d0">Amazon Rainforest</data>
+      <data key="d1">geo</data>
+      <data key="d2">A vast tropical rainforest in South America, critical to global oxygen production and biodiversity, currently threatened by deforestation.</data>
+      <data key="d3">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="3D Visualization">
+      <data key="d0">3D Visualization</data>
+      <data key="d1">category</data>
+      <data key="d2">A graphical representation showing fluid flow dynamics inside a rotating device, probably a pump or turbine, using color-coded flow lines.</data>
+      <data key="d3">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Rotating Device">
+      <data key="d0">Rotating Device</data>
+      <data key="d1">category</data>
+      <data key="d2">A mechanical device featuring a series of blades or vanes arranged spirally around a central axis, likely a pump or turbine, involved in fluid dynamics.</data>
+      <data key="d3">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Pump">
+      <data key="d0">Pump</data>
+      <data key="d1">category</data>
+      <data key="d2">A type of rotating device designed to move fluids by mechanical action, possibly the device depicted in the visualization.</data>
+      <data key="d3">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Turbine">
+      <data key="d0">Turbine</data>
+      <data key="d1">category</data>
+      <data key="d2">A rotating device that extracts energy from fluid flow, possibly the device depicted in the visualization.</data>
+      <data key="d3">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Fluid Flow Dynamics">
+      <data key="d0">Fluid Flow Dynamics</data>
+      <data key="d1">category</data>
+      <data key="d2">The study and behavior of fluid movement within systems, illustrated here by colored flow lines indicating changes in velocity and pressure.</data>
+      <data key="d3">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </node>
+    <node id="Computational Fluid Dynamics (CFD) Simulation">
+      <data key="d0">Computational Fluid Dynamics (CFD) Simulation</data>
+      <data key="d1">category</data>
+      <data key="d2">A numerical method and computational tool used to simulate and analyze fluid flow behavior in various applications, likely the technique used to produce the visualization.</data>
+      <data key="d3">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d4">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </node>
+    <edge source="Wärmetauscher" target="Zylindrischer Behälter">
+      <data key="d5">9.0</data>
+      <data key="d6">The cylindrical container is the main structural component housing the internal elements of the heat exchanger.</data>
+      <data key="d7">component, structural</data>
+      <data key="d8">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Schiffspropeller" target="Beschleunigung">
-      <data key="d5">18.0</data>
-      <data key="d6">The propeller accelerates the fluid, directing it in a specific direction.</data>
-      <data key="d7">physical interaction, propulsion</data>
-      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    <edge source="Wärmetauscher" target="Rohrbündel">
+      <data key="d5">9.0</data>
+      <data key="d6">The tube bundle is a key internal element inside the heat exchanger facilitating fluid flows and heat transfer.</data>
+      <data key="d7">component, functional design</data>
+      <data key="d8">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Schiffspropeller" target="Strömungssimulation">
-      <data key="d5">12.0</data>
-      <data key="d6">The simulation involves a ship propeller and its effect on fluid flow.</data>
-      <data key="d7">simulation, object interaction</data>
-      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    <edge source="Wärmetauscher" target="Leitbleche">
+      <data key="d5">8.0</data>
+      <data key="d6">Baffles inside the heat exchanger guide fluid flow to increase turbulence and enhance heat transfer efficiency.</data>
+      <data key="d7">component, flow control</data>
+      <data key="d8">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungslinien" target="Wirbelbildung">
-      <data key="d5">14.0</data>
-      <data key="d6">The flow lines indicate the formation of vortices behind the propeller blades.</data>
-      <data key="d7">causal relationship, fluid dynamics</data>
-      <data key="d8">chunk-4dbed46ad32fc10da34d38d5b7636d7a</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\4.png&lt;/IMG&gt;</data>
+    <edge source="Wärmetauscher" target="Zulauf- und Ablaufstutzen">
+      <data key="d5">8.0</data>
+      <data key="d6">Inlet and outlet nozzles enable the entry and exit of the fluids or gases involved in the heat exchange process.</data>
+      <data key="d7">component, fluid flow</data>
+      <data key="d8">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungslinien" target="Zylinderkopf">
-      <data key="d5">16.0</data>
-      <data key="d6">Der Zylinderkopf ist das Objekt, in dem die Strömungslinien visualisiert werden.</data>
-      <data key="d7">engineering, visualization</data>
-      <data key="d8">chunk-760959160ff9d1e402b507ae86fc5825</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    <edge source="Leitbleche" target="Wärmeaustausch">
+      <data key="d5">7.0</data>
+      <data key="d6">Baffles create turbulence in fluid flow that improves the efficiency of heat exchange.</data>
+      <data key="d7">flow management, process enhancement</data>
+      <data key="d8">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungslinien" target="Farbskala">
-      <data key="d5">18.0</data>
-      <data key="d6">Die Strömungslinien und die Farbskala stellen gemeinsam die physikalischen Eigenschaften der Strömung dar.</data>
-      <data key="d7">physical properties, visualization</data>
-      <data key="d8">chunk-760959160ff9d1e402b507ae86fc5825</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
+    <edge source="Strömungsvisualisierung" target="Strömungslinien">
+      <data key="d5">9.0</data>
+      <data key="d6">Flow visualization is represented by the colored flow lines indicating fluid paths and temperature gradients within the exchanger.</data>
+      <data key="d7">visualization, temperature mapping</data>
+      <data key="d8">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungslinien" target="Flugzeugflügel">
-      <data key="d5">18.0</data>
-      <data key="d6">Die Strömungslinien visualisieren die Luftströmung um den Flugzeugflügel.</data>
-      <data key="d7">simulation, visualization</data>
-      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    <edge source="Strömungslinien" target="Wärmeaustausch">
+      <data key="d5">8.0</data>
+      <data key="d6">The colored flow lines illustrate the mixing and temperature changes of fluids during the heat exchange process.</data>
+      <data key="d7">temperature gradient, fluid dynamics</data>
+      <data key="d8">chunk-a37edc1655f50e09505c4f2672f405b9</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_5.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungslinien" target="Computational Fluid Dynamics (CFD)">
-      <data key="d5">20.0</data>
-      <data key="d6">CFD wird verwendet, um die Strömungslinien um Objekte zu simulieren.</data>
-      <data key="d7">methodology, application</data>
-      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    <edge source="Strömungslinien" target="Zylindrischer Kanal">
+      <data key="d5">8.0</data>
+      <data key="d6">Fluid flow lines are mostly uniform and parallel in the cylindrical channel, indicating steady flow conditions there.</data>
+      <data key="d7">flow characteristic, steady state</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungssimulation" target="ANSYS">
-      <data key="d5">56.0</data>
-      <data key="d6">ANSYS software is used for the Strömungssimulation.&lt;SEP&gt;Die Software von ANSYS wird verwendet, um die Strömungssimulation durchzuführen.&lt;SEP&gt;ANSYS software was used to perform the Strömungssimulation.</data>
-      <data key="d7">software usage, simulation&lt;SEP&gt;software, simulation</data>
-      <data key="d8">chunk-d19accac0df57fe02efe95554fad3321&lt;SEP&gt;chunk-760959160ff9d1e402b507ae86fc5825&lt;SEP&gt;chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    <edge source="Strömungslinien" target="Spiralstruktur">
+      <data key="d5">9.0</data>
+      <data key="d6">Flow lines become complex and turbulent upon entering the Spiralstruktur, showing varying fluid conditions.</data>
+      <data key="d7">flow complexity, turbulence</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungssimulation" target="Velocity Streamline1">
-      <data key="d5">16.0</data>
-      <data key="d6">Velocity Streamline1 is a visualization of the Strömungssimulation results.</data>
-      <data key="d7">visualization, simulation result</data>
-      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    <edge source="Strömungslinien" target="Hauptrohr">
+      <data key="d5">8.0</data>
+      <data key="d6">Strömungslinien densely fill the middle of the Hauptrohr, indicating complex flow and increased temperature region.</data>
+      <data key="d7">fluid movement, flow density</data>
+      <data key="d8">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungssimulation" target="Kreisförmige Anordnung von Pfeilen">
-      <data key="d5">14.0</data>
-      <data key="d6">Kreisförmige Anordnung von Pfeilen represents the fluid flow in the Strömungssimulation.</data>
-      <data key="d7">visual element, simulation result</data>
-      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+    <edge source="MANY" target="entities">
+      <data key="d5">25.0</data>
+      <data key="d6">MANY is used to quantify the number of entities involved or missed in the previous extraction.&lt;SEP&gt;MANY refers to a large number of entities involved in the extraction task, indicating volume or quantity of entities extracted.&lt;SEP&gt;The term MANY modifies or describes the quantity of entities, indicating that there were numerous entities involved in the last extraction.</data>
+      <data key="d7">quantity, inclusion&lt;SEP&gt;quantity, involvement&lt;SEP&gt;quantity_description</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-04a7a9fe2892150c3fa485feab959457&lt;SEP&gt;chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungssimulation" target="Koordinatensystem">
+    <edge source="MANY" target="relationships">
+      <data key="d5">8.0</data>
+      <data key="d6">MANY also refers to a large number of relationships that were missed, highlighting the numerous associations between entities that need to be identified.</data>
+      <data key="d7">quantity, inclusion</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="entities" target="relationships">
+      <data key="d5">17.0</data>
+      <data key="d6">Entities and relationships are inherently connected as relationships describe the links between entities; both were missed or underrepresented in the last extraction.&lt;SEP&gt;Entities and relationships are interrelated concepts, where entities are individual items and relationships describe associations between them.</data>
+      <data key="d7">conceptual linkage, information structure&lt;SEP&gt;conceptual_dependency</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c&lt;SEP&gt;chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="entities" target="last extraction">
+      <data key="d5">9.0</data>
+      <data key="d6">The last extraction process was intended to identify entities but missed many, indicating an incomplete or flawed extraction.</data>
+      <data key="d7">process_performance</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="relationships" target="last extraction">
+      <data key="d5">9.0</data>
+      <data key="d6">The last extraction process was intended to identify relationships but missed many, showing a gap or deficiency in extraction quality.</data>
+      <data key="d7">process_performance</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Formel-1-Auto" target="Computersimulation der Luftströmung">
+      <data key="d5">9.0</data>
+      <data key="d6">Die Computermodelierung simuliert die Luftströmung speziell um das Formel-1-Auto, um dessen aerodynamisches Verhalten zu analysieren.</data>
+      <data key="d7">simulation, aerodynamics</data>
+      <data key="d8">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Formel-1-Auto" target="Luftströmung">
       <data key="d5">10.0</data>
-      <data key="d6">Koordinatensystem provides a spatial reference for the Strömungssimulation.</data>
-      <data key="d7">spatial reference, simulation setup</data>
-      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
+      <data key="d6">Die Luftströmung beschreibt die Bewegung der Luft um das Formel-1-Auto, deren Verhalten für das Fahrzeugdesign entscheidend ist.</data>
+      <data key="d7">aerodynamics, airflow</data>
+      <data key="d8">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungssimulation" target="Verwirbelung">
-      <data key="d5">16.0</data>
-      <data key="d6">Die Strömungssimulation zeigt deutliche Verwirbelungen im Brennraum.</data>
-      <data key="d7">simulation, fluid dynamics</data>
-      <data key="d8">chunk-760959160ff9d1e402b507ae86fc5825</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\5.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Strömungssimulation" target="Dialogfenster">
-      <data key="d5">9.0</data>
-      <data key="d6">The dialog box is used to configure and analyze the flow simulation.</data>
-      <data key="d7">software interaction, simulation control</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Strömungssimulation" target="Rohrleitungssystem">
+    <edge source="Formel-1-Auto" target="Rennstrecke">
       <data key="d5">7.0</data>
-      <data key="d6">The pipe system is used to visualize the flow simulation.</data>
-      <data key="d7">simulation model, visualization</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+      <data key="d6">Die Rennstrecke bildet die physische Umgebung, auf der das Formel-1-Auto im Kontext der Simulation positioniert ist.</data>
+      <data key="d7">location, sports environment</data>
+      <data key="d8">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Strömungssimulation" target="Velocity Magnitude">
-      <data key="d5">16.0</data>
-      <data key="d6">Velocity Magnitude is a measured property during the Strömungssimulation.</data>
-      <data key="d7">measurement, simulation data</data>
-      <data key="d8">chunk-d19accac0df57fe02efe95554fad3321</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Strömungssimulation" target="Total Pressure">
-      <data key="d5">16.0</data>
-      <data key="d6">Total Pressure is another measured property during the Strömungssimulation.</data>
-      <data key="d7">measurement, simulation data</data>
-      <data key="d8">chunk-d19accac0df57fe02efe95554fad3321</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\11.jpg&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Auto" target="Luftstrom">
-      <data key="d5">16.0</data>
-      <data key="d6">The car is the object around which the airflow is simulated.</data>
-      <data key="d7">aerodynamic interaction, object-phenomenon</data>
-      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Auto" target="Simulation">
-      <data key="d5">14.0</data>
-      <data key="d6">The simulation involves the car as the central object.</data>
-      <data key="d7">simulation subject, object representation</data>
-      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Luftstrom" target="Simulation">
-      <data key="d5">16.0</data>
-      <data key="d6">The airflow is a key aspect of the simulation.</data>
-      <data key="d7">simulation component, phenomenon representation</data>
-      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Simulation" target="Aerodynamik">
-      <data key="d5">18.0</data>
-      <data key="d6">The simulation demonstrates principles of aerodynamics.</data>
-      <data key="d7">scientific application, field demonstration</data>
-      <data key="d8">chunk-524bc4cb2f76eb4d47dea807c265c109</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\1.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Aerodynamik" target="Flugzeugflügel">
-      <data key="d5">16.0</data>
-      <data key="d6">Die Aerodynamik des Flugzeugflügels wird durch die Strömungslinien dargestellt.</data>
-      <data key="d7">physical phenomenon, analysis</data>
-      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Ansys" target="STUDENT">
-      <data key="d5">16.0</data>
-      <data key="d6">Ansys offers a STUDENT version of its software, likely for educational use.</data>
-      <data key="d7">software version, education</data>
-      <data key="d8">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="ANSYS" target="Flow Simulation">
-      <data key="d5">9.0</data>
-      <data key="d6">ANSYS software is used to create the flow simulation.</data>
-      <data key="d7">software usage, simulation tool</data>
-      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="ANSYS" target="ANSYS FLUENT">
-      <data key="d5">9.0</data>
-      <data key="d6">ANSYS Fluent is a product offered by ANSYS for fluid dynamics simulations.</data>
-      <data key="d7">software product, company</data>
-      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Kreisförmige Anordnung von Pfeilen" target="Zwei kleine Ellipsen">
-      <data key="d5">12.0</data>
-      <data key="d6">Zwei kleine Ellipsen are related to the Kreisförmige Anordnung von Pfeilen as potential inlets or outlets.</data>
-      <data key="d7">geometric relation, flow representation</data>
-      <data key="d8">chunk-50a960b1a4c3003eb2d3104e52e0ca38</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\6.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Kühlkörper/Heizkörper" target="Farbcodierungsskala">
+    <edge source="Formel-1-Auto" target="Fahrzeug">
       <data key="d5">8.0</data>
-      <data key="d6">The Kühlkörper/Heizkörper's temperature distribution is represented by the Farbcodierungsskala, showing a range of temperatures.")</data>
-      <data key="d7">thermal analysis, visualization</data>
-      <data key="d8">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
+      <data key="d6">Das Fahrzeugschema in der Simulation zeigt spezifische Teile des Formel-1-Autos, wie die vordere Hälfte, zur Analyse der Luftströmung.</data>
+      <data key="d7">vehicle anatomy, focus area</data>
+      <data key="d8">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Kühlkörper/Heizkörper" target="Achsenkreuz">
-      <data key="d5">7.0</data>
-      <data key="d6">The Achsenkreuz provides spatial orientation for the Kühlkörper/Heizkörper in 3D space.")</data>
-      <data key="d7">spatial reference, technical drawing</data>
-      <data key="d8">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Level1 Static Temperature" target="Temperaturwerte">
-      <data key="d5">6.0</data>
-      <data key="d6">The Level1 Static Temperature category is associated with specific Temperaturwerte, indicating a static thermal condition.")</data>
-      <data key="d7">thermal measurement, data representation</data>
-      <data key="d8">chunk-0fb078d1098c2a7a8eaf2ecbce9db903</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\14.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Rotor" target="Flow Lines">
+    <edge source="Luftströmung" target="Farben">
       <data key="d5">8.0</data>
-      <data key="d6">The rotor influences the flow lines, causing them to curve around it.</data>
-      <data key="d7">fluid dynamics, object interaction</data>
-      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Rotor" target="Flow Simulation">
-      <data key="d5">7.0</data>
-      <data key="d6">The flow simulation involves the rotor, which affects the fluid flow.</data>
-      <data key="d7">simulation component, object influence</data>
-      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Color Palette" target="Velocity">
-      <data key="d5">6.0</data>
-      <data key="d6">The color palette represents the velocity of the fluid flow.</data>
-      <data key="d7">visualization tool, velocity representation</data>
-      <data key="d8">chunk-f4d15f526b14ce059fe8ccc5e4c367eb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\8.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Flow Simulation" target="Dialog Box">
-      <data key="d5">9.0</data>
-      <data key="d6">The dialog box is used to configure and analyze the flow simulation.</data>
-      <data key="d7">software interaction, simulation control</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Flow Simulation" target="Pipe System">
-      <data key="d5">7.0</data>
-      <data key="d6">The pipe system is used to visualize the flow simulation.</data>
-      <data key="d7">simulation model, visualization</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Computational Fluid Dynamics (CFD)" target="Centrifugal Pump">
-      <data key="d5">14.0</data>
-      <data key="d6">CFD is used to simulate and analyze the behavior of fluids in centrifugal pumps.</data>
-      <data key="d7">simulation, fluid handling</data>
-      <data key="d8">chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Centrifugal Pump" target="Radial Fan">
-      <data key="d5">16.0</data>
-      <data key="d6">Both are types of turbomachinery used for fluid handling, with similar operational principles.</data>
-      <data key="d7">technical similarity, fluid handling</data>
-      <data key="d8">chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Pressure Distribution" target="Velocity Distribution">
-      <data key="d5">18.0</data>
-      <data key="d6">Both are critical aspects of fluid dynamics analysis, often studied together to understand fluid behavior.</data>
-      <data key="d7">fluid dynamics, analysis</data>
-      <data key="d8">chunk-1e63bd0c434801fbfeecade6fb222237</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\2.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Temperature Distribution" target="Cylindrical Body">
-      <data key="d5">18.0</data>
-      <data key="d6">The Cylindrical Body shows a Temperature Distribution, indicating varying temperatures along its length.</data>
-      <data key="d7">object property, thermal analysis</data>
-      <data key="d8">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Temperature Distribution" target="Color Scale">
-      <data key="d5">16.0</data>
-      <data key="d6">The Color Scale is used to interpret the Temperature Distribution across the Cylindrical Body.</data>
-      <data key="d7">measurement tool, thermal analysis</data>
-      <data key="d8">chunk-0412d5e22b40de18ed72fc6c455e17eb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\12.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="YouTube" target="ANSYS FLUENT TUTORIAL">
-      <data key="d5">8.0</data>
-      <data key="d6">The ANSYS Fluent tutorial is likely a video or series of videos hosted on YouTube.</data>
-      <data key="d7">tutorial, educational content</data>
-      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="ANSYS FLUENT" target="ANSYS2020 R1">
-      <data key="d5">5.0</data>
-      <data key="d6">ANSYS2020 R1 is a version of the software that can be used for ANSYS Fluent simulations.</data>
-      <data key="d7">software version, simulation tool</data>
-      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Spiralförmige (helikale) Rohrschlange" target="Fluid Heat Transfer Analysis">
-      <data key="d5">7.0</data>
-      <data key="d6">The spiral-shaped pipe coil is an object of study in fluid heat transfer analysis.</data>
-      <data key="d7">simulation object, analysis type</data>
-      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Pressure Contour" target="Fluid Heat Transfer Analysis">
-      <data key="d5">6.0</data>
-      <data key="d6">Pressure contours are used to visualize and analyze fluid heat transfer phenomena.</data>
-      <data key="d7">visualization tool, analysis technique</data>
-      <data key="d8">chunk-ead0afc4708f778cdd81f496b855dddb</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\13.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Farbskala" target="Venturirohr/Düse">
-      <data key="d5">16.0</data>
-      <data key="d6">The color scale is used to quantify the pressure distribution within the Venturi pipe.</data>
-      <data key="d7">pressure visualization, measurement</data>
-      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Farbskala" target="Pressure1">
-      <data key="d5">18.0</data>
-      <data key="d6">The color scale is labeled with pressure values (in Pa) and is associated with the 'Pressure1' label.</data>
-      <data key="d7">pressure measurement, labeling</data>
-      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Rohrleitungssystem" target="Farblegende">
-      <data key="d5">8.0</data>
-      <data key="d6">The pipe system is colored according to the velocity magnitude legend.</data>
+      <data key="d6">Die Farben in der Simulation visualisieren unterschiedliche Eigenschaften der Luftströmung, wie Druck und Geschwindigkeit.</data>
       <data key="d7">visualization, data representation</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+      <data key="d8">chunk-420fad359816126ce89a0116b5e0b2e0</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_14.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Farblegende" target="velocity magnitude">
-      <data key="d5">10.0</data>
-      <data key="d6">The color legend represents the velocity magnitude of the flow.</data>
-      <data key="d7">data visualization, measurement</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Pipe System" target="Color Legend">
+    <edge source="Luftströmung" target="LKW">
       <data key="d5">8.0</data>
-      <data key="d6">The pipe system is colored according to the velocity magnitude legend.</data>
-      <data key="d7">visualization, data representation</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+      <data key="d6">The airflow (Luftströmung) occurs around the LKW, affecting the pressure and velocity distribution on its surface.</data>
+      <data key="d7">fluid dynamics, external flow</data>
+      <data key="d8">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Color Legend" target="Velocity Magnitude">
+    <edge source="Luftströmung" target="Turbulenzen">
+      <data key="d5">8.0</data>
+      <data key="d6">Turbulenzen are specific flow features observed within the overall airflow around the LKW, particularly underneath the vehicle.</data>
+      <data key="d7">flow disturbance, aerodynamic complexity</data>
+      <data key="d8">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Luftströmung" target="Formel-Rennwagen">
+      <data key="d5">9.0</data>
+      <data key="d6">The Formula racing car influences and interacts with the airflow around it, which is crucial for its aerodynamic performance.</data>
+      <data key="d7">aerodynamics, airflow interaction</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Luftströmung" target="Druckverteilung">
+      <data key="d5">9.0</data>
+      <data key="d6">The airflow around the car determines the pressure distribution on its surfaces, which affects aerodynamic behavior.</data>
+      <data key="d7">fluid dynamics, pressure effects</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Luftströmung" target="Strömungsgeschwindigkeit">
+      <data key="d5">8.0</data>
+      <data key="d6">The velocity of the airflow is a critical parameter that influences pressure zones and aerodynamic forces on the car.</data>
+      <data key="d7">flow dynamics, speed pressure correlation</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="LAVA" target="Structured Overset Mesh">
+      <data key="d5">9.0</data>
+      <data key="d6">LAVA software implements the structured overset mesh method to model fluid flow around aircraft with high resolution and geometry conformity.</data>
+      <data key="d7">software implementation, CFD method</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="LAVA" target="Computational Fluid Dynamics (CFD)">
+      <data key="d5">9.0</data>
+      <data key="d6">LAVA is an example of software implementing computational fluid dynamics for aircraft modeling.</data>
+      <data key="d7">software example, fluid simulation</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Commercial CFD Software" target="Unstructured Polyhedral Mesh">
+      <data key="d5">9.0</data>
+      <data key="d6">Commercial CFD software uses unstructured polyhedral meshes to flexibly simulate complex aircraft geometries.</data>
+      <data key="d7">software implementation, CFD method</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Commercial CFD Software" target="Computational Fluid Dynamics (CFD)">
+      <data key="d5">9.0</data>
+      <data key="d6">Commercial CFD software represents another approach within computational fluid dynamics applied to aircraft simulations.</data>
+      <data key="d7">software example, fluid simulation</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Structured Overset Mesh" target="Pressure Distribution">
+      <data key="d5">8.0</data>
+      <data key="d6">The structured overset mesh method computes the pressure distribution around the aircraft, visualizing areas of high and low pressure.</data>
+      <data key="d7">simulation output, fluid dynamics</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Structured Overset Mesh" target="Velocity Distribution (U-Vel)">
+      <data key="d5">8.0</data>
+      <data key="d6">Using the structured overset mesh, CFD simulations calculate the velocity distribution around the aircraft.</data>
+      <data key="d7">simulation output, fluid dynamics</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Unstructured Polyhedral Mesh" target="Pressure Distribution">
+      <data key="d5">8.0</data>
+      <data key="d6">Simulations using unstructured polyhedral meshes also generate pressure distribution data around the aircraft.</data>
+      <data key="d7">simulation output, fluid dynamics</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Unstructured Polyhedral Mesh" target="Velocity Distribution (U-Vel)">
+      <data key="d5">8.0</data>
+      <data key="d6">Velocity distribution data around the aircraft is produced through CFD analysis with unstructured polyhedral meshes.</data>
+      <data key="d7">simulation output, fluid dynamics</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computational Fluid Dynamics (CFD)" target="Computersimulation von Fluidströmung">
       <data key="d5">10.0</data>
-      <data key="d6">The color legend represents the velocity magnitude of the flow.</data>
-      <data key="d7">data visualization, measurement</data>
-      <data key="d8">chunk-b439e21faabb43f494092d8078561451</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\9.png&lt;/IMG&gt;</data>
+      <data key="d6">CFD is the probable computational approach used to simulate and visualize fluid flow in this simulation.</data>
+      <data key="d7">simulation method, fluid dynamics</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Flugzeugflügel" target="Triebwerk">
-      <data key="d5">16.0</data>
-      <data key="d6">Der Triebwerk ist unter dem Flugzeugflügel montiert.</data>
-      <data key="d7">physical relationship, assembly</data>
-      <data key="d8">chunk-586e18895bc17337c1feccdf0f0aa42f</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\3.png&lt;/IMG&gt;</data>
+    <edge source="United Nations" target="World Health Organization">
+      <data key="d5">18.0</data>
+      <data key="d6">The WHO operates as a specialized agency under the UN, collaborating on global health matters."|&gt;"organizational affiliation&lt;SEP&gt;The WHO operates as a specialized agency under the United Nations, coordinating global public health efforts.</data>
+      <data key="d7">9&lt;SEP&gt;organizational affiliation, global governance</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267&lt;SEP&gt;chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
     </edge>
-    <edge source="Venturirohr/Düse" target="Abstandsanzeige">
-      <data key="d5">14.0</data>
-      <data key="d6">The length scale is related to the dimensions of the Venturi pipe.</data>
-      <data key="d7">measurement, scale</data>
-      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
-    </edge>
-    <edge source="Venturirohr/Düse" target="Venturi Effect">
+    <edge source="United Nations" target="António Guterres">
       <data key="d5">20.0</data>
-      <data key="d6">The Venturi effect is demonstrated by the pressure distribution within the Venturi pipe.</data>
-      <data key="d7">phenomenon, application</data>
-      <data key="d8">chunk-cd126362dfa02c18dcec02f4cb7f6401</data>
-      <data key="d9">&lt;IMG&gt;rag-data/images\10.png&lt;/IMG&gt;</data>
+      <data key="d6">António Guterres serves as the Secretary-General of the United Nations, guiding its strategic vision.&lt;SEP&gt;António Guterres serves as the Secretary-General, leading the United Nations and directing its initiatives."|&gt;"leadership</data>
+      <data key="d7">10&lt;SEP&gt;leadership, organizational role</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267&lt;SEP&gt;chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;&lt;SEP&gt;&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="United Nations" target="Green Climate Fund">
+      <data key="d5">8.0</data>
+      <data key="d6">The Green Climate Fund functions under the umbrella of UN conventions to finance climate-related projects."|&gt;"organizational support</data>
+      <data key="d7">8</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="United Nations" target="Sustainable Development Goals">
+      <data key="d5">9.0</data>
+      <data key="d6">The UN established these goals to guide global sustainable development efforts through 2030."|&gt;"initiative development</data>
+      <data key="d7">9</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="United Nations" target="COVID-19 Pandemic">
+      <data key="d5">8.0</data>
+      <data key="d6">The United Nations has been actively involved in coordinating humanitarian response to the COVID-19 pandemic globally.</data>
+      <data key="d7">global crisis response, humanitarian aid</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="United Nations" target="Paris Agreement">
+      <data key="d5">10.0</data>
+      <data key="d6">The Paris Agreement was adopted under the auspices of the United Nations Framework Convention on Climate Change.</data>
+      <data key="d7">international treaty, climate policy</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="World Health Organization" target="COVID-19 Pandemic">
+      <data key="d5">10.0</data>
+      <data key="d6">WHO led international health guidance and coordination during the COVID-19 pandemic.</data>
+      <data key="d7">public health, pandemic management</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Joe Biden" target="United States">
+      <data key="d5">10.0</data>
+      <data key="d6">Joe Biden is the President of the United States, representing the country's policies and decisions."|&gt;"leadership representation</data>
+      <data key="d7">10</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Paris Agreement" target="United States">
+      <data key="d5">9.0</data>
+      <data key="d6">The United States is a key party to the Paris Agreement, shaping its commitments to reduce emissions."|&gt;"international treaty participation</data>
+      <data key="d7">9</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Paris Agreement" target="climate change">
+      <data key="d5">10.0</data>
+      <data key="d6">The Paris Agreement is designed to address climate change through greenhouse gas emissions reduction."|&gt;"thematic focus</data>
+      <data key="d7">10</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Paris Agreement" target="COP26 Summit">
+      <data key="d5">9.0</data>
+      <data key="d6">The COP26 Summit serves as a platform to review, reinforce, and update commitments under the Paris Agreement."|&gt;"policy negotiation</data>
+      <data key="d7">9</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Paris Agreement" target="Global Warming">
+      <data key="d5">10.0</data>
+      <data key="d6">The Paris Agreement aims to limit the effects of global warming by setting emission reduction targets.</data>
+      <data key="d7">climate change mitigation, policy</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Paris Agreement" target="COP26">
+      <data key="d5">9.0</data>
+      <data key="d6">COP26 was a conference held as part of the UN climate change negotiations to advance implementation of the Paris Agreement.</data>
+      <data key="d7">climate negotiations, treaty implementation</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Paris Agreement" target="European Union">
+      <data key="d5">8.0</data>
+      <data key="d6">The European Union is a signatory party to the Paris Agreement and actively participates in climate policy.</data>
+      <data key="d7">regional cooperation, climate policy</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Paris Agreement" target="Sustainable Development">
+      <data key="d5">8.0</data>
+      <data key="d6">The Paris Agreement supports sustainable development goals by promoting environmentally sustainable policies.</data>
+      <data key="d7">sustainability, policy alignment</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="climate change" target="Sustainable Development Goals">
+      <data key="d5">8.0</data>
+      <data key="d6">Many Sustainable Development Goals address challenges related to climate change for sustainable progress."|&gt;"thematic connection</data>
+      <data key="d7">8</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="COP26 Summit" target="António Guterres">
+      <data key="d5">8.0</data>
+      <data key="d6">The UN Secretary-General participates actively in the COP26 Summit to advocate for stronger climate actions."|&gt;"advocacy</data>
+      <data key="d7">8</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Green Climate Fund" target="developing countries">
+      <data key="d5">9.0</data>
+      <data key="d6">The Green Climate Fund provides financial resources to developing countries to assist in climate change mitigation and adaptation."|&gt;"financial aid</data>
+      <data key="d7">9</data>
+      <data key="d8">chunk-932145f36fd8974c42af2d7ef2491267</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_9.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="LKW" target="Numerische Simulation">
+      <data key="d5">9.0</data>
+      <data key="d6">The numerical simulation visualizes the airflow characteristics specifically around the LKW to study its aerodynamic properties.</data>
+      <data key="d7">simulation, aerodynamic analysis</data>
+      <data key="d8">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="LKW" target="Aerodynamik">
+      <data key="d5">9.0</data>
+      <data key="d6">The aerodynamic properties of the LKW are the focus of the visualization, guiding design improvements.</data>
+      <data key="d7">vehicle design, performance optimization</data>
+      <data key="d8">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Numerische Simulation" target="Aerodynamik">
+      <data key="d5">9.0</data>
+      <data key="d6">The numerical simulation method is used to analyze and visualize the aerodynamic behavior of the LKW.</data>
+      <data key="d7">computational modeling, aerodynamic study</data>
+      <data key="d8">chunk-ee9b4f94ffee551d775d184a43647669</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_10.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Aerodynamik" target="Anpressdruck">
+      <data key="d5">10.0</data>
+      <data key="d6">Aerodynamics of the car generates downforce, which presses the vehicle onto the track for better grip.</data>
+      <data key="d7">performance enhancement, aerodynamic force</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Aerodynamik" target="Luftwiderstand">
+      <data key="d5">10.0</data>
+      <data key="d6">Aerodynamics work to reduce air resistance (drag) to improve the Formula racing car's speed and efficiency.</data>
+      <data key="d7">drag reduction, speed optimization</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computersimulation von Fluidströmung" target="Spiralstruktur">
+      <data key="d5">9.0</data>
+      <data key="d6">The simulation visualizes fluid flow through the Spiralstruktur as a main geometric feature affecting flow dynamics.</data>
+      <data key="d7">fluid flow, geometric influence</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computersimulation von Fluidströmung" target="Zylindrischer Kanal">
+      <data key="d5">8.0</data>
+      <data key="d6">The simulation includes the Zylindrischer Kanal as part of the fluid pathway before the spiral section.</data>
+      <data key="d7">fluid pathway, structural element</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computersimulation von Fluidströmung" target="Rotierendes Rad">
+      <data key="d5">9.0</data>
+      <data key="d6">The Rotierendes Rad is a central component in the simulation, influencing the fluid flow pattern and device performance.</data>
+      <data key="d7">component function, flow influence</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computersimulation von Fluidströmung" target="Ringförmige Strukturen">
+      <data key="d5">7.0</data>
+      <data key="d6">The ring-shaped green structures surround the rotating wheel and function as static elements guiding the fluid flow.</data>
+      <data key="d7">flow guidance, static components</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computersimulation von Fluidströmung" target="Finite-Elemente-Analyse (FEA)">
+      <data key="d5">7.0</data>
+      <data key="d6">FEA is likely one computational technique involved in the analysis of fluid flow and structural performance in the simulation.</data>
+      <data key="d7">simulation method, computational analysis</data>
+      <data key="d8">chunk-04a7a9fe2892150c3fa485feab959457</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_7.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Rechteckiger Kanal">
+      <data key="d5">9.0</data>
+      <data key="d6">The flow simulation is performed inside the rectangular channel which is divided into several chambers.</data>
+      <data key="d7">simulation environment, spatial context</data>
+      <data key="d8">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Strömung">
+      <data key="d5">10.0</data>
+      <data key="d6">The simulation visualizes the fluid flow characteristics within the channel.</data>
+      <data key="d7">simulation content, fluid dynamics</data>
+      <data key="d8">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömungssimulation" target="Rotor">
+      <data key="d5">10.0</data>
+      <data key="d6">The flow simulation visualizes how the fluid moves around the rotor, illustrating the impact of the rotor geometry on the flow.</data>
+      <data key="d7">simulation, visualization, fluid-structure interaction</data>
+      <data key="d8">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rechteckiger Kanal" target="Wirbel">
+      <data key="d5">8.0</data>
+      <data key="d6">The rectangular channel's internal chambers induce vortex formation in the fluid flow.</data>
+      <data key="d7">fluid dynamics, flow behavior</data>
+      <data key="d8">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömung" target="Stromlinien">
+      <data key="d5">8.0</data>
+      <data key="d6">Streamlines are used to represent the flow direction and velocity density of the fluid flow.</data>
+      <data key="d7">visualization method, flow representation</data>
+      <data key="d8">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömung" target="Vektoren">
+      <data key="d5">8.0</data>
+      <data key="d6">Vectors provide a detailed depiction of flow direction and speed at discrete points.</data>
+      <data key="d7">visualization method, flow representation</data>
+      <data key="d8">chunk-529c823f33f290c0342afc5bcd5b517e</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_8.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömung" target="3D-Simulation">
+      <data key="d5">9.0</data>
+      <data key="d6">The 3D simulation depicts the complex turbulent Strömung within the reactor, showing direction and speed.</data>
+      <data key="d7">flow dynamics, simulation visualization</data>
+      <data key="d8">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömung" target="Rührer">
+      <data key="d5">8.0</data>
+      <data key="d6">The Rührer strongly influences the Strömung by generating flow patterns and turbulence in the reactor.</data>
+      <data key="d7">fluid dynamics, mixing</data>
+      <data key="d8">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Strömung" target="Ablenkbleche">
+      <data key="d5">7.0</data>
+      <data key="d6">The Ablenkbleche affect the Strömung by guiding flow and reducing dead zones, enhancing circulation.</data>
+      <data key="d7">flow control, turbulence management</data>
+      <data key="d8">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rührtankreaktor" target="Rührer">
+      <data key="d5">9.0</data>
+      <data key="d6">The Rührer is an internal component of the Rührtankreaktor responsible for mixing the reactor's contents.</data>
+      <data key="d7">component, internal structure</data>
+      <data key="d8">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rührtankreaktor" target="Ablenkbleche">
+      <data key="d5">8.0</data>
+      <data key="d6">The Ablenkbleche are installed inside the Rührtankreaktor to improve fluid flow and reduce dead zones.</data>
+      <data key="d7">component, flow optimization</data>
+      <data key="d8">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rührtankreaktor" target="3D-Simulation">
+      <data key="d5">10.0</data>
+      <data key="d6">The 3D simulation visualizes the processes occurring inside the Rührtankreaktor, including flow and reaction dynamics.</data>
+      <data key="d7">visualization, process modeling</data>
+      <data key="d8">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="3D-Simulation" target="Farbgebung im Reaktor">
+      <data key="d5">9.0</data>
+      <data key="d6">The 3D simulation uses color coding in the reactor to represent concentration, temperature, or flow velocity.</data>
+      <data key="d7">visual representation, simulation data</data>
+      <data key="d8">chunk-e4b59efe6ab973a11967d9eae4c7b7e5</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_13.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Formel-Rennwagen" target="Frontflügel">
+      <data key="d5">8.0</data>
+      <data key="d6">The front wing is part of the Formula racing car and plays a key role in shaping airflow and generating downforce at the front.</data>
+      <data key="d7">vehicle component, aerodynamic function</data>
+      <data key="d8">chunk-3a62f47f34b1b65d9e4144cf90139c1c</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_11.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="CFD Software" target="Fluid Flow Simulation">
+      <data key="d5">9.0</data>
+      <data key="d6">CFD Software is the tool used to generate the simulation of fluid flow within the room, providing detailed visualization and analysis capabilities.</data>
+      <data key="d7">simulation technology, fluid dynamics</data>
+      <data key="d8">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Grey Blocks" target="Fluid Flow Simulation">
+      <data key="d5">8.0</data>
+      <data key="d6">Grey blocks represent obstacles within the simulation that influence the patterns and turbulence of the fluid flow.</data>
+      <data key="d7">simulation environment, flow obstruction</data>
+      <data key="d8">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Fluid Flow Simulation" target="Color Scale">
+      <data key="d5">9.0</data>
+      <data key="d6">The color scale is applied within the fluid flow simulation to represent different velocities of fluid movement.</data>
+      <data key="d7">visualization, velocity representation</data>
+      <data key="d8">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Fluid Flow Simulation" target="Coordinate System">
+      <data key="d5">7.0</data>
+      <data key="d6">The coordinate system provides spatial orientation for analyzing flow direction and object placement in the simulation.</data>
+      <data key="d7">spatial orientation, analysis framework</data>
+      <data key="d8">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Fluid Flow Simulation" target="Room or Structure">
+      <data key="d5">9.0</data>
+      <data key="d6">The room or structure forms the physical boundaries within which the fluid flow is simulated.</data>
+      <data key="d7">simulation environment, physical context</data>
+      <data key="d8">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="OpenAI" target="GPT series">
+      <data key="d5">1.0</data>
+      <data key="d6">OpenAI is the developer of the GPT series of language models, responsible for their research, training, and deployment.</data>
+      <data key="d7">AI Development|&gt;9</data>
+      <data key="d8">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="OpenAI" target="Artificial General Intelligence (AGI)">
+      <data key="d5">1.0</data>
+      <data key="d6">OpenAI’s main mission is the safe creation and deployment of AGI that benefits humanity.</data>
+      <data key="d7">Mission Focus|&gt;10</data>
+      <data key="d8">chunk-d8d97baaf7f43488e252056b0846c528</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_12.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Numerical Simulation" target="Rectangular Pipe">
+      <data key="d5">9.0</data>
+      <data key="d6">The numerical simulation models fluid flow within a rectangular pipe with constricted ends.</data>
+      <data key="d7">modeling domain, simulation setup</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Numerical Simulation" target="Cylindrical Obstacles">
+      <data key="d5">8.0</data>
+      <data key="d6">The simulation includes cylindrical obstacles inside the pipe that influence flow behavior.</data>
+      <data key="d7">obstacle inclusion, flow impact</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Numerical Simulation" target="Flow Lines">
+      <data key="d5">7.0</data>
+      <data key="d6">The simulation visualizes flow paths using flow lines that indicate vortices and turbulence.</data>
+      <data key="d7">flow visualization, pathline representation</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Temperature" target="Rectangular Pipe">
+      <data key="d5">9.0</data>
+      <data key="d6">Temperature distribution is shown throughout the rectangular pipe, with high temperature at the inlet and varying temperatures downstream.</data>
+      <data key="d7">thermal distribution, domain scope</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Residence Time" target="Cylindrical Obstacles">
+      <data key="d5">8.0</data>
+      <data key="d6">Residence time increases in regions behind the cylindrical obstacles where flow slows and vortices form.</data>
+      <data key="d7">flow behavior, time distribution</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Cylindrical Obstacles" target="Flow Lines">
+      <data key="d5">8.0</data>
+      <data key="d6">Flow lines curve around the cylindrical obstacles, illustrating formation of vortices and turbulence.</data>
+      <data key="d7">flow-obstacle interaction, turbulence visualization</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Apple Inc." target="Tim Cook">
+      <data key="d5">9.0</data>
+      <data key="d6">Tim Cook is the CEO leading Apple Inc., responsible for its overall management and business growth.</data>
+      <data key="d7">leadership, management</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Apple Inc." target="iPhone">
+      <data key="d5">10.0</data>
+      <data key="d6">The iPhone is a flagship product developed and sold by Apple Inc., central to its revenue and market presence.</data>
+      <data key="d7">product development, sales</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Apple Inc." target="App Store">
+      <data key="d5">9.0</data>
+      <data key="d6">The App Store is operated by Apple Inc. as the official platform for distributing applications to its devices.</data>
+      <data key="d7">platform operation, digital distribution</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Apple Inc." target="Cupertino">
+      <data key="d5">8.0</data>
+      <data key="d6">Cupertino is the geographical location of Apple Inc.’s headquarters and main corporate offices.</data>
+      <data key="d7">headquarters location</data>
+      <data key="d8">chunk-d8ae5e8fd1c0189a6d885eb1585cdb20</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_20.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rotor" target="Fluid">
+      <data key="d5">9.0</data>
+      <data key="d6">The rotor interacts with the fluid flow, affecting its direction and speed, demonstrating aerodynamic or hydrodynamic behavior.</data>
+      <data key="d7">fluid dynamics, mechanical interaction</data>
+      <data key="d8">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rotor" target="Turbulence">
+      <data key="d5">7.0</data>
+      <data key="d6">The shape and arrangement of the rotor blades cause turbulence in the fluid flow behind it, indicating potential areas for optimization.</data>
+      <data key="d7">aerodynamics, flow disturbance</data>
+      <data key="d8">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Fluid" target="Turbulence">
+      <data key="d5">8.0</data>
+      <data key="d6">The fluid flow generates turbulence behind the rotor, showing areas of energy loss and irregular motion.</data>
+      <data key="d7">fluid dynamics, turbulence effects</data>
+      <data key="d8">chunk-e71ca78a9f28f0cfd0ee604ae5d0c313</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_4.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computersimulation" target="Flüssigkeitsströmung">
+      <data key="d5">9.0</data>
+      <data key="d6">The simulation visually presents the behavior of Flüssigkeitsströmung inside the Rohrleitungssystem as the core focus.</data>
+      <data key="d7">modeling, fluid dynamics</data>
+      <data key="d8">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Computersimulation" target="Rohrleitungssystem">
+      <data key="d5">8.0</data>
+      <data key="d6">The Rohrleitungssystem is the structural framework modeled within the simulation to analyze flow patterns.</data>
+      <data key="d7">system structure, simulation context</data>
+      <data key="d8">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Hauptrohr" target="Zylindrisches Rohr von links">
+      <data key="d5">7.0</data>
+      <data key="d6">The left cylindrical pipe merges into the Hauptrohr, contributing fluid flow represented by turquoise flow lines.</data>
+      <data key="d7">pipe connection, fluid input</data>
+      <data key="d8">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Hauptrohr" target="Zylindrisches Rohr von rechts">
+      <data key="d5">7.0</data>
+      <data key="d6">The right cylindrical pipe merges into the Hauptrohr, contributing fluid flow with flow lines colored from green to brown.</data>
+      <data key="d7">pipe connection, fluid input</data>
+      <data key="d8">chunk-20fcedb0e907e85748193d8cda41ccf4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_1.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Global Warming" target="Greenpeace">
+      <data key="d5">8.0</data>
+      <data key="d6">Greenpeace campaigns to increase awareness and action against global warming.</data>
+      <data key="d7">environmental activism, climate advocacy</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Global Warming" target="Arctic">
+      <data key="d5">9.0</data>
+      <data key="d6">The Arctic is a region severely impacted by global warming through ice melting and ecological changes.</data>
+      <data key="d7">environmental impact, climate vulnerability</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Global Warming" target="Deforestation">
+      <data key="d5">10.0</data>
+      <data key="d6">Deforestation contributes to global warming by releasing stored carbon and reducing carbon sequestration.</data>
+      <data key="d7">climate change cause, environmental impact</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="COP26" target="John Kerry">
+      <data key="d5">9.0</data>
+      <data key="d6">John Kerry participated prominently in COP26 as a climate envoy, facilitating international negotiations.</data>
+      <data key="d7">climate diplomacy, international relations</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Deforestation" target="Amazon Rainforest">
+      <data key="d5">10.0</data>
+      <data key="d6">The Amazon Rainforest faces significant deforestation, impacting biodiversity and carbon emissions.</data>
+      <data key="d7">environmental degradation, deforestation</data>
+      <data key="d8">chunk-f70396c9680fcbde61ee0009ded51952</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_3.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="3D Visualization" target="Rotating Device">
+      <data key="d5">9.0</data>
+      <data key="d6">The visualization depicts the fluid flow and rotation within the rotating device.</data>
+      <data key="d7">illustration, fluid dynamics</data>
+      <data key="d8">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="3D Visualization" target="Fluid Flow Dynamics">
+      <data key="d5">9.0</data>
+      <data key="d6">The visualization represents fluid flow dynamics visually through colored flow lines."|&gt;"illustration, fluid mechanics</data>
+      <data key="d7">9</data>
+      <data key="d8">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="3D Visualization" target="Computational Fluid Dynamics (CFD) Simulation">
+      <data key="d5">10.0</data>
+      <data key="d6">The 3D visualization is likely the result of a CFD simulation used to analyze and optimize fluid flow within the device."|&gt;"simulation, fluid analysis</data>
+      <data key="d7">10</data>
+      <data key="d8">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rotating Device" target="Pump">
+      <data key="d5">7.0</data>
+      <data key="d6">The rotating device is likely a pump, as suggested by the description."|&gt;"device type, mechanical function</data>
+      <data key="d7">7</data>
+      <data key="d8">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Rotating Device" target="Turbine">
+      <data key="d5">7.0</data>
+      <data key="d6">The rotating device could also be a turbine, as an alternative possibility described."|&gt;"device type, mechanical function</data>
+      <data key="d7">7</data>
+      <data key="d8">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
+    </edge>
+    <edge source="Fluid Flow Dynamics" target="Computational Fluid Dynamics (CFD) Simulation">
+      <data key="d5">10.0</data>
+      <data key="d6">CFD simulation is used to model and analyze fluid flow dynamics in various applications."|&gt;"simulation methodology, fluid mechanics</data>
+      <data key="d7">10</data>
+      <data key="d8">chunk-86c9e46e6a291736b706f8833a9a8ab4</data>
+      <data key="d9">&lt;IMG&gt;rag-data\images\image_16.png&lt;/IMG&gt;</data>
     </edge>
   </graph>
 </graphml>

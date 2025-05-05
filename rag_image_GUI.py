@@ -28,6 +28,9 @@ groq_client = Groq(api_key=groq_api_key)
 #deepseek
 deepseek_api_key = st.secrets.deepseek_api_key #os.getenv("GROQ_API_KEY")
 deepseek_client = OpenAI(api_key=deepseek_api_key,base_url="https://api.deepseek.com")
+#openai
+openai_api_key = st.secrets.openai_api_key #os.getenv("GROQ_API_KEY")
+openai_client = OpenAI(api_key=openai_api_key)
 #gemini
 gemini_api_key = st.secrets.google_api_key #os.getenv('GOOGLE_API_KEY') 
 genai.configure(api_key=gemini_api_key)
@@ -50,7 +53,7 @@ Analysiere das Bild und beantworte folgende Fragen:
 - Welche Texte oder Beschriftungen erscheinen im Bild?
 - Beschreibe das Bild möglichst exakt
 """
-
+describe_image_prompt = "Analysiere das Bild und beschreibe es möglichst ausführlich und genau."
 os.environ["COSINE_THRESHOLD"] = "0.7"
 
 
@@ -134,7 +137,7 @@ async def llm_model_func(prompt, system_prompt=None, history_messages=[], keywor
         return response.choices[0].message.content+ f" <REFERENCES>{",".join(images)}"
     return response.choices[0].message.content
 
-async def llm_model_func_deepseek(prompt,image=None,**kwargs) -> str:
+async def llm_model_func_deepseek(prompt, system_prompt=None, history_messages=[], keyword_extraction=False,image=None,**kwargs) -> str:
     combined_prompt = ""
     
     combined_prompt = ""
@@ -165,10 +168,41 @@ async def llm_model_func_deepseek(prompt,image=None,**kwargs) -> str:
     return response.choices[0].message.content
 
 
+async def llm_model_func_openai(prompt, system_prompt=None, history_messages=[], keyword_extraction=False,image=None,**kwargs) -> str:
+    combined_prompt = ""
+    
+    combined_prompt = ""
+    if system_prompt:
+        print("system_prompt",system_prompt)
+        matches = re.findall(r"<IMG>(.*?)<\/IMG>", system_prompt)
+        images = set(matches)  # Extract unique patterns
+        return f"relevanteste Bilder: <REFERENCES>{",".join(images)}"
+        #images_data = [PIL.Image.open(img) for img in images]
+        #combined_prompt = [f"Beantworten Sie die Frage des Benutzers anhand der folgenden Bilder.\nFrage: {prompt}"] + images_data
+
+        
+    #if 'history_messages' in kwargs:
+    #    for msg in kwargs['history_messages']:
+    #        combined_prompt += f"{msg['role']}: {msg['content']}\n"
+        
+    if not system_prompt:
+        combined_prompt += f"user: {prompt}"
+    
+    if image:
+        combined_prompt = [combined_prompt,PIL.Image.open(image)]
+    response = openai_client.chat.completions.create(
+        model="gpt-4.1-mini",
+        messages=[{"role": "user", "content": combined_prompt}],
+    )
+    if system_prompt:
+        return response.choices[0].message.content+ f" <REFERENCES>{",".join(images)}"
+    return response.choices[0].message.content
+
+
 gen_llm = llm_model_func
 
 if ai_provider == 'openai':
-    gen_llm = gpt_4o_mini_complete
+    gen_llm = llm_model_func_openai#gpt_4o_mini_complete
     embedding_model = openai_embed
 elif ai_provider == 'google':
     gen_llm = llm_model_func_google
