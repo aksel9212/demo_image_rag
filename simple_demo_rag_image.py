@@ -274,7 +274,7 @@ def main():
                     st.markdown(i)
                 cols = st.columns(len(images)) 
                 for i in range(len(images)):
-                    cols[i].image(os.path.join(DOCS_DIR,images[i]), use_container_width=True)
+                    cols[i].image(os.path.join(DOCS_DIR,images[i].strip()), use_container_width=True)
             except:
                 st.markdown("Sorry, No images were found!")
             
