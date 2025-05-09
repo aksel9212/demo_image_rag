@@ -40,16 +40,6 @@ else:
     emb_model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
 describe_image_prompt = """
-Analysiere das Bild und beantworte folgende Fragen: 
-- welche Objekte sind zu erkennen? 
-- welche Vorgänge sind zu erkennen? 
-- Welche Texte oder Beschriftungen erscheinen im Bild?
-- Beschreibe das Bild möglichst exakt
-"""
-describe_image_prompt = "Analysiere das Bild und beschreibe es möglichst ausführlich und genau."
-os.environ["COSINE_THRESHOLD"] = "0.5"
-
-describe_image_prompt = """
 Ihre Aufgabe ist es, den Inhalt eines Bildes umfassend und prägnant zu beschreiben.
 Die Beschreibung muss für die Verwendung in einem RAG-System optimiert sein.
 Hier ist das Bild:
@@ -68,10 +58,11 @@ def openai_embedding(texts: list[str]) -> np.ndarray:
     )
     return [dat.embedding for dat in response.data]
 
-def llm_model_func_google(prompt,image=None) -> str:
+def llm_model_func_google(prompt,images=[]) -> str:
     
     
-    combined_prompt = [prompt,PIL.Image.open(image)]
+    combined_prompt = [prompt]
+    combined_prompt += [PIL.Image.open(image) for image in images] 
     # Call the Gemini model
     response = model.generate_content(combined_prompt)
     
@@ -119,19 +110,20 @@ def run_new_indexing():
         if doc in st.session_state.index:
             continue
         doc_path = os.path.join(DOCS_DIR,doc)
-        image_description = llm_model_func_google(prompt=describe_image_prompt,image=doc_path)
+        image_description = llm_model_func_google(prompt=describe_image_prompt,images=[doc_path])
         print("image:",doc,image_description)
         #citations.append(doc)
         st.session_state.index.append(doc)
         docs_data.append(image_description)
-        if len(docs_data) > 100:
-            embeddings = embedding_func(docs_data) 
-            if len(st.session_state.index_embs) > 0:
-                st.session_state.index_embs = np.vstack([st.session_state.index_embs,embeddings])         
-            else:
-                st.session_state.index_embs = embeddings
-            docs_data = []
-            #citations = []
+        #if len(docs_data) > 100:
+        #    embeddings = openai_embedding(docs_data) 
+        #    if len(st.session_state.index_embs) > 0:
+        #        st.session_state.index_embs = np.vstack([st.session_state.index_embs,embeddings])         
+        #    else:
+        #        st.session_state.index_embs = embeddings
+        #    docs_data = []
+    
+    embeddings = openai_embedding(docs_data)
     embeddings = embedding_func(docs_data)
     if len(st.session_state.index_embs) > 0:
         st.session_state.index_embs = np.vstack([st.session_state.index_embs,embeddings])         
@@ -140,6 +132,9 @@ def run_new_indexing():
     save_embs(st.session_state.index_embs)
     with open(os.path.join(WORKING_DIR,'index.txt'),"w") as f:
         f.write("\n".join(st.session_state.index))
+    with open(os.path.join(WORKING_DIR,'images_descriptions.txt'),"w") as f:
+        f.write("\n".join([f"{i}:{j}" for i, j in zip(st.session_state.index, docs_data)]))
+    
     print("images indexing DONE!!")
 
 
@@ -150,27 +145,57 @@ def save_docs(docs):
         with open(file_path ,'wb') as fp:
             fp.write(doc.getbuffer())
 
-def rag(query,database,thredshold=0.5):
+def rag(question,database,thredshold=0.4):
 
     def cosine_similarity(vec1, vec2):
         vec1 = np.array(vec1)
         vec2 = np.array(vec2)
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
-
+    #query = openai_embedding(question)
+    query = embedding_func(question)
     similarities = [cosine_similarity(query, sentence_embedding) for sentence_embedding in database]
     print(similarities)
     scores =  sorted([score for score in similarities if score > thredshold],reverse=True)
     if len(scores) == 0:
         scores = [max(similarities)]
     idxs = sorted(range(len(similarities)), key=lambda i: similarities[i], reverse=True)[:len(scores)]
+    # validate results:
+    images = [st.session_state.index[i] for i in idxs][:5]
+    with open(os.path.join(WORKING_DIR,'images_descriptions.txt'),"r") as fp:
+        images_descriptions = [line for line in fp.readlines() if line.split(":")[0].strip() in images]
+    print(images)
+    prompt = f"""
+        Ihre Aufgabe ist es, die Relevanz der RAG (Retrieval-Augmented Generation) Ergebnisse zu validieren.  
+        Gegeben ist eine Liste von Bildnamen mit den entsprechenden Beschreibungen und einer Frage.
+        Identifizieren und geben Sie die Namen der Bilder zurück, deren Beschreibungen hochgradig relevant für die Frage sind.
+        Bilder, die nicht direkt oder eng mit der Frage verbunden sind, sollen verworfen werden.  
 
-    return idxs, scores
+        Frage: {question}
+
+        Eingabe: {"\n".join(images_descriptions)}  
+
+        Ausgabeformat:  
+        - Die Liste der ausgewählten Bildnamen muss:  
+          1. Durch ein Komma (`,`) getrennt sein.  
+          2. Zwischen `<IMAGES>` und `</IMAGES>` eingeschlossen sein.  
+
+        Wichtiger Hinweis:  
+        - Stellen Sie sicher, dass nur hochrelevante Bilder in die Ausgabe aufgenommen werden.  
+        - Keine zusätzlichen Texte oder Kommentare sollen in der Ausgabe enthalten sein.
+
+    """ 
+    print(prompt)
+    response = llm_model_func_google(prompt,[])
+    print(response)
+    response = re.search(r"<IMAGES>(.*?)</IMAGES>", response)
+    if response:
+        images = response.group(1).split(",")
+
+    return images
 
 
 def main():
     st.title("RAG AI Agent (demo)")
-
-
 
     if "index" not in st.session_state:
         st.session_state.index_embs = load_embs()
@@ -242,16 +267,16 @@ def main():
             full_response = ""
             
             # Properly consume the async generator with async for
-            query = embedding_func(user_input)
-            indexes, scores = rag(query,st.session_state.index_embs,0.6) 
-            images = [os.path.join(DOCS_DIR,st.session_state.index[i]) for i in indexes] 
-            for i in images:
-                st.markdown(i)
-            cols = st.columns(len(images))
-            for i in range(len(images)):
-                cols[i].image(images[i], use_container_width=True)
             
+            images = rag(user_input,st.session_state.index_embs) 
+            try:
+                for i in images:
+                    st.markdown(i)
+                cols = st.columns(len(images)) 
+                for i in range(len(images)):
+                    cols[i].image(os.path.join(DOCS_DIR,images[i]), use_container_width=True)
+            except:
+                st.markdown("Sorry, No images were found!")
             
 if __name__ == "__main__":
-    print("run app")
     main()
