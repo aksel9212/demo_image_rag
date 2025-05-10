@@ -8,6 +8,9 @@ import google.generativeai as genai
 import PIL
 import streamlit as st
 
+import base64
+from io import BytesIO
+
 WORKING_DIR = "rag-data"
 DOCS_DIR = os.path.join(WORKING_DIR, "images")
 EMBS_DIR = os.path.join(WORKING_DIR, "embeddings")
@@ -38,6 +41,7 @@ if ai_provider == 'openai':
     emb_model = None
 else:
     emb_model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+    #emb_model = SentenceTransformer("mixedbread-ai/deepset-mxbai-embed-de-large-v1", truncate_dim=1024)
 
 describe_image_prompt = """
 Ihre Aufgabe ist es, den Inhalt eines Bildes umfassend und prägnant zu beschreiben.
@@ -57,6 +61,59 @@ def openai_embedding(texts: list[str]) -> np.ndarray:
         model="text-embedding-3-small"
     )
     return [dat.embedding for dat in response.data]
+
+
+
+def encode_image(image_path):
+        with open(image_path, "rb") as image_file:
+            return base64.b64encode(image_file.read()).decode("utf-8")
+
+def llm_model_func_groq(prompt,images=[]) -> str:
+    #combined_prompt = [prompt]
+    
+    #combined_prompt += [image_to_base64( PIL.Image.open(image) ) for image in images] 
+    #combined_prompt = "\n".join(combined_prompt)
+    response = groq_client.chat.completions.create(
+        model="meta-llama/llama-4-scout-17b-16e-instruct",  # or another Groq-supported model like llama3-70b
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:image/jpeg;base64,{encode_image(images[0])}",
+                        },
+                    },
+                ],
+            }
+        ],
+    )
+    return response.choices[0].message.content
+
+def llm_model_func_deepseek(prompt,images=[]) -> str:
+    
+    combined_prompt = [prompt]
+    
+    #combined_prompt += [image_to_base64( PIL.Image.open(image) ) for image in images] 
+    #combined_prompt = "\n".join(combined_prompt)
+    response = openai_client.responses.create(
+        model="gpt-4.1",
+        input=[
+                {
+                    "role": "user",
+                    "content": [
+                        { "type": "input_text", "text": prompt },
+                        {
+                          "type": "input_image",
+                          "image_url": f"data:image/jpeg;base64,{encode_image(images[0])}",
+                        },
+                    ]
+                }
+            ],
+        )
+    return response.output_text
 
 def llm_model_func_google(prompt,images=[]) -> str:
     
@@ -110,7 +167,7 @@ def run_new_indexing():
         if doc in st.session_state.index:
             continue
         doc_path = os.path.join(DOCS_DIR,doc)
-        image_description = llm_model_func_google(prompt=describe_image_prompt,images=[doc_path])
+        image_description = llm_model_func_groq(prompt=describe_image_prompt,images=[doc_path])
         print("image:",doc,image_description)
         #citations.append(doc)
         st.session_state.index.append(doc)
